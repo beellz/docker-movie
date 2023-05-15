@@ -2,18 +2,14 @@
 version: "2.1"
 services:
   transmission:
-    image: lscr.io/linuxserver/transmission:latest
+    image: linuxserver/transmission
     container_name: transmission
     environment:
-      - PUID=1002
-      - PGID=1002
+      - PUID=1000
+      - USER=beellz
+      - PASS=32502310
+      - PGID=1000
       - TZ=Etc/UTC
-      - TRANSMISSION_WEB_HOME= #optional
-      - USER= beellz
-      - PASS= 32502310
-      - WHITELIST= "127.0.0.1,*.*.*.*"
-      - PEERPORT= #optional
-      - HOST_WHITELIST= "*"
     volumes:
       - /home/beellz/trans-movie/config:/config
       - /home/beellz/trans-movie/download:/downloads
