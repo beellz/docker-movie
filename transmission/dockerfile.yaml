@@ -1,0 +1,15 @@
+sudo docker create --name=transmission \
+- restart=always \
+-e PUID=1002 \
+-e PGID=1002 \
+-v  /home/beellz/trans-movie/config:/config \
+-v  /home/beellz/trans-movie/download:/downloads \
+-v  /home/beellz/trans-movie/watch:/watch \
+-e USER= 'beellz' \
+-e PASS= '32502310' \
+-e PGID=1001 -e PUID=1001 \
+-e TZ=Europe/London \
+-p 9091:9091 -p 51413:51413 \
+-p 51413:51413/udp \
+linuxserver/transmission
+

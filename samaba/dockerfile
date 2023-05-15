@@ -1,0 +1,1 @@
+sudo docker run -it --name samba -p 139:139 -p 445:445 -v /home/beellz/trans-movie:/mount -d dperson/samba -p -u "beellz;32502310"
