@@ -21,7 +21,7 @@ services:
     volumes:
       - /home/beellz/trans-movie:/mnt:z
       - /mnt2:/mnt2:z
-    command: '-s "Mount;/mnt" -s "Bobs Volume;/mnt2;yes;no;no;bob" -u "beellz;32502310" -p'
+    command: '-s "Mount;/mnt;yes;no;no;beellz;beellz;all" -s "Bobs Volume;/mnt2;yes;no;no;bob" -u "beellz;32502310" -p'
 
 networks:
   default:
