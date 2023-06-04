@@ -2,26 +2,20 @@ version: '3.4'
 
 services:
   samba:
-    image: dperson/samba
+    image: elswork/samba
     environment:
       TZ: 'EST5EDT'
     networks:
       - default
     ports:
-      - "137:137/udp"
-      - "138:138/udp"
-      - "139:139/tcp"
-      - "445:445/tcp"
-    read_only: true
-    tmpfs:
-      - /tmp
+      - "139:139"
+      - "445:445"
     restart: unless-stopped
-    stdin_open: true
-    tty: true
     volumes:
-      - /home/beellz/trans-movie:/mnt:z
-      - /mnt2:/mnt2:z
-    command: '-s "Mount;/mnt;yes;no;no;beellz;beellz;all" -s "Bobs Volume;/mnt2;yes;no;no;bob" -u "beellz;32502310" -p'
+      - /home/${USERNAME}/trans-movie:/share/folder
+      #- /path/to/be/shared:/share/folder
+    command: '-u "1002:1002:${USERNAME}:${USERNAME}:32502310" -s "mount:/share/folder:rw:${USERNAME}"'
+    # command: '-u "uid:guid:username:groupname:put-any-password-here" -s "SmbShare:/share/folder:rw:username"'
 
-networks:
-  default:
+# networks:
+  # default:

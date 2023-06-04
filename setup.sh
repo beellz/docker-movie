@@ -1,4 +1,7 @@
 #!/bin/bash
+
+export USERNAME=$(whoami)
+
 if [[ "$1" = "up" ]]
 then
  echo "creating containers "
