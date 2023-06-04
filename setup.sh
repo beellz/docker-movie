@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Your username is $(whoami) "
+
 export USERNAME=$(whoami)
 
 if [[ "$1" = "up" ]]
