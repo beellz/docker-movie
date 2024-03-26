@@ -1,0 +1,12 @@
+version: '3.9'
+services:
+    kavita:
+        image: jvmilazz0/kavita:latest
+        volumes:
+            - /media/hdd/apps/Manga/hmanga:/manga
+            - /media/hdd/books:/books
+            - /media/hdd/bookold:/bookold
+            - ./data:/kavita/config
+        ports:
+            - "5000:5000"
+        restart: unless-stopped

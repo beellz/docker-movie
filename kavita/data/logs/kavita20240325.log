@@ -1,0 +1,1022 @@
+[Kavita] [2024-03-25 00:00:13.047 +00:00  119] [Information] API.Services.Tasks.CleanupService Starting Cleanup
+[Kavita] [2024-03-25 00:00:13.050 +00:00  275] [Information] API.Services.Plus.ScrobblingService Starting Scrobble Processing
+[Kavita] [2024-03-25 00:00:13.051 +00:00  308] [Information] API.Services.Tasks.CleanupService Performing cleanup of Series that are Completed and have been fully read that are in Want To Read list
+[Kavita] [2024-03-25 00:00:13.055 +00:00  119] [Information] API.Services.Tasks.CleanupService Cleaning temp directory
+[Kavita] [2024-03-25 00:00:13.056 +00:00  119] [Information] API.Services.Tasks.CleanupService Performing cleanup of Cache & Temp directories
+[Kavita] [2024-03-25 00:00:13.055 +00:00  366] [Information] API.Services.Tasks.ScannerService Starting Scan of All Libraries
+[Kavita] [2024-03-25 00:00:13.056 +00:00  119] [Information] API.Services.Tasks.CleanupService Cache and temp directory purged
+[Kavita] [2024-03-25 00:00:13.057 +00:00  119] [Information] API.Services.Tasks.CleanupService Cleaning old database backups
+[Kavita] [2024-03-25 00:00:13.068 +00:00  119] [Information] API.Services.Tasks.CleanupService Beginning cleanup of Database backups at "2024-03-25T00:00:13.0679762+00:00"
+[Kavita] [2024-03-25 00:00:13.070 +00:00  119] [Information] API.Services.Tasks.CleanupService Finished cleanup of Database backups at "2024-03-25T00:00:13.0702056+00:00"
+[Kavita] [2024-03-25 00:00:13.070 +00:00  119] [Information] API.Services.Tasks.CleanupService Cleaning deleted cover images
+[Kavita] [2024-03-25 00:00:13.090 +00:00  275] [Information] API.Services.Plus.ScrobblingService Found 0 Scrobble Events
+[Kavita] [2024-03-25 00:00:13.092 +00:00  275] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-03-25 00:00:13.094 +00:00  275] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-03-25 00:00:13.096 +00:00  275] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-03-25 00:00:13.097 +00:00  275] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-03-25 00:00:13.099 +00:00  119] [Information] API.Services.Tasks.CleanupService Performing cleanup of logs directory
+[Kavita] [2024-03-25 00:00:13.099 +00:00  275] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-03-25 00:00:13.100 +00:00  275] [Information] API.Services.Plus.ScrobblingService Scrobbling Events is complete
+[Kavita] [2024-03-25 00:00:13.101 +00:00  119] [Information] API.Services.Tasks.CleanupService Finished cleanup of logs at "2024-03-25T00:00:13.1012752+00:00"
+[Kavita] [2024-03-25 00:00:13.101 +00:00  119] [Information] API.Services.Tasks.CleanupService Cleaning up any progress rows that exceed chapter page count
+[Kavita] [2024-03-25 00:00:13.103 +00:00  119] [Information] API.Services.Tasks.CleanupService Cleaning up any progress rows that exceed chapter page count - complete
+[Kavita] [2024-03-25 00:00:13.110 +00:00  119] [Information] API.Services.Tasks.CleanupService Cleanup finished
+[Kavita] [2024-03-25 00:00:13.136 +00:00  366] [Information] API.Services.Tasks.ScannerService [ScannerService] Beginning file scan on hmanga
+[Kavita] [2024-03-25 00:00:13.153 +00:00  308] [Information] API.Services.Tasks.CleanupService Performing cleanup of Series that are Completed and have been fully read that are in Want To Read list, completed
+[Kavita] [2024-03-25 00:00:13.168 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz
+[Kavita] [2024-03-25 00:00:13.183 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git
+[Kavita] [2024-03-25 00:00:13.195 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/branches
+[Kavita] [2024-03-25 00:00:13.196 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/hooks
+[Kavita] [2024-03-25 00:00:13.208 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/info
+[Kavita] [2024-03-25 00:00:13.209 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/logs
+[Kavita] [2024-03-25 00:00:13.211 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/logs/refs
+[Kavita] [2024-03-25 00:00:13.212 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/logs/refs/heads
+[Kavita] [2024-03-25 00:00:13.214 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/logs/refs/remotes
+[Kavita] [2024-03-25 00:00:13.216 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/logs/refs/remotes/origin
+[Kavita] [2024-03-25 00:00:13.219 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/objects
+[Kavita] [2024-03-25 00:00:13.220 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/objects/info
+[Kavita] [2024-03-25 00:00:13.222 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/objects/pack
+[Kavita] [2024-03-25 00:00:13.236 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/refs
+[Kavita] [2024-03-25 00:00:13.238 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/refs/heads
+[Kavita] [2024-03-25 00:00:13.239 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/refs/remotes
+[Kavita] [2024-03-25 00:00:13.240 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/refs/remotes/origin
+[Kavita] [2024-03-25 00:00:13.242 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/refs/tags
+[Kavita] [2024-03-25 00:00:13.245 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/src
+[Kavita] [2024-03-25 00:00:13.315 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/target
+[Kavita] [2024-03-25 00:00:13.316 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/target/debug
+[Kavita] [2024-03-25 00:00:13.338 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/target/debug/.fingerprint
+[Kavita] [2024-03-25 00:00:13.342 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/target/debug/.fingerprint/easy-zip-to-cbz-8172284138558fad
+[Kavita] [2024-03-25 00:00:13.359 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/target/debug/build
+[Kavita] [2024-03-25 00:00:13.360 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/target/debug/deps
+[Kavita] [2024-03-25 00:00:13.382 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/target/debug/examples
+[Kavita] [2024-03-25 00:00:13.384 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/target/debug/incremental
+[Kavita] [2024-03-25 00:00:13.384 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/target/debug/incremental/easy_zip_to_cbz-30akxogsr6jli
+[Kavita] [2024-03-25 00:00:13.407 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/target/debug/incremental/easy_zip_to_cbz-30akxogsr6jli/s-grxspc46uf-tws71c-2ppk3620squaylxue18pr1ycj
+[Kavita] [2024-03-25 00:00:13.430 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Found 0 files for /manga/easy-zip-to-cbz
+[Kavita] [2024-03-25 00:00:13.431 +00:00  366] [Information] API.Services.Tasks.ScannerService [ScannerService] /manga/easy-zip-to-cbz is empty or is no longer in this location
+[Kavita] [2024-03-25 00:00:18.833 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /manga/hen as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:18.834 +00:00  366] [Information] API.Services.Tasks.ScannerService [ScannerService] Finished file scan in 5671 milliseconds. Updating database
+[Kavita] [2024-03-25 00:00:18.853 +00:00  366] [Information] API.Services.Tasks.ScannerService [ScannerService] Finished library scan of 102 series in 5786 milliseconds for hmanga. There were no changes
+[Kavita] [2024-03-25 00:00:18.854 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Removing Series that were not found during the scan
+[Kavita] [2024-03-25 00:00:18.928 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Found 0 series that needs to be removed: []
+[Kavita] [2024-03-25 00:00:18.929 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Removing Series that were not found during the scan - complete
+[Kavita] [2024-03-25 00:00:18.961 +00:00  366] [Information] API.Services.Tasks.ScannerService [ScannerService] Beginning file scan on books
+[Kavita] [2024-03-25 00:00:18.968 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /books/Learn Python In A Week And Master It as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:18.969 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /books/ChatGPT For Dummies 1st Edition as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:18.970 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /books/Complete Book of Outdoor DIY Projects - The How-To Guide for Building 35 Projects in Stone, Brick, Wood as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:18.972 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /books/DARK PSYCHOLOGY AND MANIPULATION + HOW TO INFLUENCE PEOPLE + GASLIGHTING + MASTER YOUR EMOTIONS as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:18.973 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /books/Electronics For Dummies as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:18.975 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /books/How To Fix Absolutely Anything A Homeowners Guide as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:18.976 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /books/How To Grow Marijuana - High-Quality Marijuana from your own Indoor and Outdoor as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:18.977 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /books/How To Grow Your Own Fruit Trees - A Beginner's Guide on Growing Fruit Trees as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:18.978 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /books/Hydroponics - DIY Guide to Building a Complete and Cheap Hydroponics System as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:18.979 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /books/HYDROPONICS and RAISED BED GARDENING - 2 Manuscripts in 1 - The Essential Guide to Learn as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:18.980 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /books/Linux Format UK - January 2024 PDF as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:18.981 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo
+[Kavita] [2024-03-25 00:00:18.981 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/.pad
+[Kavita] [2024-03-25 00:00:18.983 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/[TutsNode.com] - MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo
+[Kavita] [2024-03-25 00:00:18.984 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/[TutsNode.com] - MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/01 Introduction
+[Kavita] [2024-03-25 00:00:18.985 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/[TutsNode.com] - MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/02 Challenges in existing ML projects
+[Kavita] [2024-03-25 00:00:18.986 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/[TutsNode.com] - MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/03 MLOps - A solution
+[Kavita] [2024-03-25 00:00:18.988 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/[TutsNode.com] - MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/04 Maturity levels in MLOps
+[Kavita] [2024-03-25 00:00:18.989 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/[TutsNode.com] - MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/05 MLOps Tools_Platforms Stack
+[Kavita] [2024-03-25 00:00:18.990 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/[TutsNode.com] - MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/06 Demo - Build & Run MLOps pipeline in Azure Cloud
+[Kavita] [2024-03-25 00:00:18.991 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/[TutsNode.com] - MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/07 Azure Machine Learning Studio - Crash course
+[Kavita] [2024-03-25 00:00:18.992 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/[TutsNode.com] - MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/08 Demo - Data scientist's experiment
+[Kavita] [2024-03-25 00:00:18.993 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/[TutsNode.com] - MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/09 Demo - Orchestrated Experiment ML codes
+[Kavita] [2024-03-25 00:00:18.994 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/[TutsNode.com] - MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/10 Demo - CI_CD MLOps Pipeline
+[Kavita] [2024-03-25 00:00:18.996 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/[TutsNode.com] - MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/11 BONUS
+[Kavita] [2024-03-25 00:00:18.997 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Found 0 files for /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo
+[Kavita] [2024-03-25 00:00:18.998 +00:00  366] [Information] API.Services.Tasks.ScannerService [ScannerService] /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo is empty or is no longer in this location
+[Kavita] [2024-03-25 00:00:19.001 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /books/Python Programming And Maching Learning Understanding How To Code Within 24 Hours 2 In 1 as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:19.002 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /books/Save the World with Code - 20 Fun Projects for All Ages Using Raspberry Pi, micro as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:19.002 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/[ DevCourseWeb.com ] Udemy - MLOps Simplified
+[Kavita] [2024-03-25 00:00:19.003 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/[ DevCourseWeb.com ] Udemy - MLOps Simplified/~Get Your Files Here !
+[Kavita] [2024-03-25 00:00:19.004 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/[ DevCourseWeb.com ] Udemy - MLOps Simplified/~Get Your Files Here !/1. Welcome
+[Kavita] [2024-03-25 00:00:19.005 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/[ DevCourseWeb.com ] Udemy - MLOps Simplified/~Get Your Files Here !/2. Introduction to MLOps
+[Kavita] [2024-03-25 00:00:19.006 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/[ DevCourseWeb.com ] Udemy - MLOps Simplified/~Get Your Files Here !/3. Model Deployment
+[Kavita] [2024-03-25 00:00:19.007 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/[ DevCourseWeb.com ] Udemy - MLOps Simplified/~Get Your Files Here !/4. Model Monitoring and Management
+[Kavita] [2024-03-25 00:00:19.008 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/[ DevCourseWeb.com ] Udemy - MLOps Simplified/~Get Your Files Here !/5. DevOps and MLOps Integration
+[Kavita] [2024-03-25 00:00:19.009 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/[ DevCourseWeb.com ] Udemy - MLOps Simplified/~Get Your Files Here !/6. MLOps Best Practices
+[Kavita] [2024-03-25 00:00:19.010 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/[ DevCourseWeb.com ] Udemy - MLOps Simplified/~Get Your Files Here !/7. Capstone Project
+[Kavita] [2024-03-25 00:00:19.012 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Found 0 files for /books/[ DevCourseWeb.com ] Udemy - MLOps Simplified
+[Kavita] [2024-03-25 00:00:19.012 +00:00  366] [Information] API.Services.Tasks.ScannerService [ScannerService] /books/[ DevCourseWeb.com ] Udemy - MLOps Simplified is empty or is no longer in this location
+[Kavita] [2024-03-25 00:00:21.137 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /books/[ FreeCourseWeb.com ] Coursera - Machine Learning Engineering for Production (MLOps) Specialization as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:21.174 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /books/[ FreeCourseWeb.com ] Udemy - Testing and Monitoring Machine Learning Model Deployments as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:21.175 +00:00  366] [Information] API.Services.Tasks.ScannerService [ScannerService] Finished file scan in 2210 milliseconds. Updating database
+[Kavita] [2024-03-25 00:00:21.188 +00:00  366] [Information] API.Services.Tasks.ScannerService [ScannerService] Finished library scan of 28 series in 2230 milliseconds for books. There were no changes
+[Kavita] [2024-03-25 00:00:21.189 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Removing Series that were not found during the scan
+[Kavita] [2024-03-25 00:00:21.211 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Found 0 series that needs to be removed: []
+[Kavita] [2024-03-25 00:00:21.212 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Removing Series that were not found during the scan - complete
+[Kavita] [2024-03-25 00:00:21.244 +00:00  366] [Information] API.Services.Tasks.ScannerService [ScannerService] Beginning file scan on books old
+[Kavita] [2024-03-25 00:00:21.330 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/101 Essential Tips -  Baking,Growing Vegetables,Yoga,Home Brewing,Dog Care,Cat Care,Effetive Communication and Negotiation Boos Collection - Mantesh as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:21.348 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/18 books by Robert kiyosaki as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:21.360 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/31 Steps Learn a New Language + Learn Spanish,French Verbs &  Vocabulary  + Common Travel Phrases With Phonetic Transcription - Mantesh as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:21.362 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/How Electronic Things Work. . ...And What to Do When They Don't + How to Diagnose and Fix Everything Electronic -Mantesh as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:21.385 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/GATE (ECE) Previous years Question papers as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:21.397 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/self help books as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:21.399 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/The 48 Laws of Power by Robert Greene as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:21.401 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/The Longest August - Dilip Hiro as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:21.419 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/android book as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:21.421 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/balaguruswamy c++ book as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:21.423 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/Building an Educated Vocabulary (gnv64) as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:21.425 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/Business Plans Handbook (2012) + How to Write a Business Plan -Mantesh as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:21.425 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /bookold/CFM
+[Kavita] [2024-03-25 00:00:21.426 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /bookold/CFM/unit 1
+[Kavita] [2024-03-25 00:00:21.427 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /bookold/CFM/unit 2
+[Kavita] [2024-03-25 00:00:21.428 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /bookold/CFM/unit 3
+[Kavita] [2024-03-25 00:00:21.429 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /bookold/CFM/unit 4
+[Kavita] [2024-03-25 00:00:21.430 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Found 0 files for /bookold/CFM
+[Kavita] [2024-03-25 00:00:21.430 +00:00  366] [Information] API.Services.Tasks.ScannerService [ScannerService] /bookold/CFM is empty or is no longer in this location
+[Kavita] [2024-03-25 00:00:21.433 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/Dan Brown as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:25.377 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/eBooks as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:25.446 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/ebooks sd as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:25.448 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/Ebook_-_Self_Help_-_The_world_Of_Subconscious_Mind as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:25.449 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/Electronic Projects for Musicians (1992) [FrankFoo] as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:25.450 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/Show Me How - 500 Things You Should Know - Instructions for Life from the Everyday to the Exotic -Mantesh as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:25.455 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/SN as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:25.458 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/Laptop Repair Complete Guide -Including Motherboard Component Level Repair! (Pdf,Epub,Mobi) -Mantesh as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:25.461 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/Life Skills - How to Do Almost Anything (Pdf,Epub,Mobi) -Mantesh as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:25.462 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/Math in Minutes - 200 Key Concepts Explained In An Instant -Mantesh as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:25.485 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/Mega Collection To Learn French as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:25.487 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/Non-Programmer's_Tutorial_for_Python_2.6 { UPPOG2 } torrents as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:25.488 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/The Complete Book of Drawing Techniques as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:25.490 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/The Wolf of Wall Street as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:25.490 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /bookold/thisareallthenotesandmcqssofar___
+[Kavita] [2024-03-25 00:00:25.491 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Found 0 files for /bookold/thisareallthenotesandmcqssofar___
+[Kavita] [2024-03-25 00:00:25.492 +00:00  366] [Information] API.Services.Tasks.ScannerService [ScannerService] /bookold/thisareallthenotesandmcqssofar___ is empty or is no longer in this location
+[Kavita] [2024-03-25 00:00:26.030 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/VIPRYN's Startup Books, v.1.2 as it hasn't changed since last scan
+[Kavita] [2024-03-25 00:00:26.031 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /bookold/What the Most Successful People Do Before Breakfast [64] By Laura Vanderkam ABEE
+[Kavita] [2024-03-25 00:00:26.032 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Found 0 files for /bookold/What the Most Successful People Do Before Breakfast [64] By Laura Vanderkam ABEE
+[Kavita] [2024-03-25 00:00:26.032 +00:00  366] [Information] API.Services.Tasks.ScannerService [ScannerService] /bookold/What the Most Successful People Do Before Breakfast [64] By Laura Vanderkam ABEE is empty or is no longer in this location
+[Kavita] [2024-03-25 00:00:26.032 +00:00  366] [Debug] API.Services.DirectoryService [ScanFiles] called on /bookold/Word Master
+[Kavita] [2024-03-25 00:00:26.034 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Found 0 files for /bookold/Word Master
+[Kavita] [2024-03-25 00:00:26.034 +00:00  366] [Information] API.Services.Tasks.ScannerService [ScannerService] /bookold/Word Master is empty or is no longer in this location
+[Kavita] [2024-03-25 00:00:26.035 +00:00  366] [Information] API.Services.Tasks.ScannerService [ScannerService] Finished file scan in 4787 milliseconds. Updating database
+[Kavita] [2024-03-25 00:00:26.050 +00:00  366] [Information] API.Services.Tasks.ScannerService [ScannerService] Finished library scan of 175 series in 4809 milliseconds for books old. There were no changes
+[Kavita] [2024-03-25 00:00:26.050 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Removing Series that were not found during the scan
+[Kavita] [2024-03-25 00:00:26.182 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Found 0 series that needs to be removed: []
+[Kavita] [2024-03-25 00:00:26.182 +00:00  366] [Debug] API.Services.Tasks.ScannerService [ScannerService] Removing Series that were not found during the scan - complete
+[Kavita] [2024-03-25 00:00:26.216 +00:00  366] [Information] API.Services.Tasks.ScannerService Scan of All Libraries Finished
+[Kavita] [2024-03-25 02:00:13.200 +00:00  91] [Information] API.Services.Tasks.BackupService Beginning backup of Database at "2024-03-25T02:00:13.2001529+00:00"
+[Kavita] [2024-03-25 02:00:13.205 +00:00  91] [Debug] API.Services.Tasks.BackupService Backing up to /kavita/config/backups
+[Kavita] [2024-03-25 02:00:13.206 +00:00  91] [Error] API.Services.DirectoryService Unable to copy /kavita/config/Hangfire.db to /kavita/config/temp/03_25_2024_02_00_13 as it doesn't exist
+[Kavita] [2024-03-25 02:00:13.206 +00:00  91] [Error] API.Services.DirectoryService Unable to copy /kavita/config/Hangfire-log.db to /kavita/config/temp/03_25_2024_02_00_13 as it doesn't exist
+[Kavita] [2024-03-25 02:00:13.493 +00:00  91] [Information] API.Services.Tasks.BackupService Database backup completed
+[Kavita] [2024-03-25 04:00:13.360 +00:00  322] [Information] API.Services.Plus.ScrobblingService Starting Scrobble Processing
+[Kavita] [2024-03-25 04:00:13.397 +00:00  322] [Information] API.Services.Plus.ScrobblingService Found 0 Scrobble Events
+[Kavita] [2024-03-25 04:00:13.398 +00:00  322] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-03-25 04:00:13.400 +00:00  322] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-03-25 04:00:13.402 +00:00  322] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-03-25 04:00:13.403 +00:00  322] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-03-25 04:00:13.405 +00:00  322] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-03-25 04:00:13.406 +00:00  322] [Information] API.Services.Plus.ScrobblingService Scrobbling Events is complete
+[Kavita] [2024-03-25 04:13:23.779 +00:00  272] [Information] API.Controllers.PluginController Plugin Tachiyomi-Kavita has authenticated with beellz (1)'s API Key
+[Kavita] [2024-03-25 04:13:23.836 +00:00  272] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Plugin/authenticate?apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&pluginName=Tachiyomi-Kavita responded 200 in 68.5027 ms
+[Kavita] [2024-03-25 04:13:24.327 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Server/server-info responded 200 in 119.8439 ms
+[Kavita] [2024-03-25 04:13:24.865 +00:00  197] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/genres responded 200 in 2.4712 ms
+[Kavita] [2024-03-25 04:13:25.224 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/tags responded 200 in 2.1979 ms
+[Kavita] [2024-03-25 04:13:25.593 +00:00  272] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/age-ratings responded 200 in 1.2147 ms
+[Kavita] [2024-03-25 04:13:25.981 +00:00  272] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Collection responded 200 in 6.4319 ms
+[Kavita] [2024-03-25 04:13:26.547 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/languages responded 200 in 7.0600 ms
+[Kavita] [2024-03-25 04:13:27.434 +00:00  272] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 04:13:27.437 +00:00  272] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Library responded 200 in 4.1087 ms
+[Kavita] [2024-03-25 04:13:27.795 +00:00  272] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/people responded 200 in 3.0760 ms
+[Kavita] [2024-03-25 04:13:28.181 +00:00  272] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/publication-status responded 200 in 0.8860 ms
+[Kavita] [2024-03-25 04:13:28.544 +00:00  197] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 1.5359 ms
+[Kavita] [2024-03-25 04:59:41.648 +00:00  260] [Information] API.Controllers.PluginController Plugin Tachiyomi-Kavita has authenticated with beellz (1)'s API Key
+[Kavita] [2024-03-25 04:59:41.713 +00:00  260] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Plugin/authenticate?apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&pluginName=Tachiyomi-Kavita responded 200 in 77.9570 ms
+[Kavita] [2024-03-25 04:59:41.931 +00:00  291] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Server/server-info responded 200 in 113.1466 ms
+[Kavita] [2024-03-25 04:59:42.205 +00:00  291] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/genres responded 200 in 2.4455 ms
+[Kavita] [2024-03-25 04:59:42.240 +00:00  315] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/tags responded 200 in 2.2088 ms
+[Kavita] [2024-03-25 04:59:42.270 +00:00  260] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/age-ratings responded 200 in 1.2493 ms
+[Kavita] [2024-03-25 04:59:42.446 +00:00  291] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Collection responded 200 in 6.2014 ms
+[Kavita] [2024-03-25 04:59:42.477 +00:00  260] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/languages responded 200 in 2.0631 ms
+[Kavita] [2024-03-25 04:59:42.509 +00:00  291] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 04:59:42.513 +00:00  291] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Library responded 200 in 4.2938 ms
+[Kavita] [2024-03-25 04:59:42.680 +00:00  315] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/people responded 200 in 3.0621 ms
+[Kavita] [2024-03-25 04:59:42.712 +00:00  260] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/publication-status responded 200 in 0.8520 ms
+[Kavita] [2024-03-25 04:59:42.741 +00:00  260] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 1.3700 ms
+[Kavita] [2024-03-25 06:10:13.029 +00:00  333] [Information] API.Controllers.PluginController Plugin Tachiyomi-Kavita has authenticated with beellz (1)'s API Key
+[Kavita] [2024-03-25 06:10:13.081 +00:00  333] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Plugin/authenticate?apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&pluginName=Tachiyomi-Kavita responded 200 in 63.0814 ms
+[Kavita] [2024-03-25 06:10:13.203 +00:00  314] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Server/server-info responded 200 in 85.6130 ms
+[Kavita] [2024-03-25 06:10:13.288 +00:00  209] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/genres responded 200 in 3.2091 ms
+[Kavita] [2024-03-25 06:10:13.339 +00:00  314] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/tags responded 200 in 4.0525 ms
+[Kavita] [2024-03-25 06:10:13.388 +00:00  209] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/age-ratings responded 200 in 2.4697 ms
+[Kavita] [2024-03-25 06:10:13.440 +00:00  333] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Collection responded 200 in 9.4391 ms
+[Kavita] [2024-03-25 06:10:13.480 +00:00  209] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/languages responded 200 in 3.3311 ms
+[Kavita] [2024-03-25 06:10:13.517 +00:00  314] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 06:10:13.522 +00:00  314] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Library responded 200 in 6.7435 ms
+[Kavita] [2024-03-25 06:10:13.564 +00:00  314] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/people responded 200 in 4.7983 ms
+[Kavita] [2024-03-25 06:10:13.599 +00:00  333] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/publication-status responded 200 in 1.3495 ms
+[Kavita] [2024-03-25 06:10:13.649 +00:00  314] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 1.9326 ms
+[Kavita] [2024-03-25 06:53:47.869 +00:00  74] [Information] API.Controllers.PluginController Plugin Tachiyomi-Kavita has authenticated with beellz (1)'s API Key
+[Kavita] [2024-03-25 06:53:47.910 +00:00  74] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Plugin/authenticate?apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&pluginName=Tachiyomi-Kavita responded 200 in 46.2864 ms
+[Kavita] [2024-03-25 06:53:48.001 +00:00  239] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Server/server-info responded 200 in 56.5579 ms
+[Kavita] [2024-03-25 06:53:48.067 +00:00  239] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/genres responded 200 in 5.2314 ms
+[Kavita] [2024-03-25 06:53:48.113 +00:00  74] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/tags responded 200 in 3.5679 ms
+[Kavita] [2024-03-25 06:53:48.163 +00:00  74] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/age-ratings responded 200 in 2.3963 ms
+[Kavita] [2024-03-25 06:53:48.212 +00:00  74] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Collection responded 200 in 11.0966 ms
+[Kavita] [2024-03-25 06:53:48.265 +00:00  239] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/languages responded 200 in 3.6188 ms
+[Kavita] [2024-03-25 06:53:48.318 +00:00  74] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 06:53:48.323 +00:00  74] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Library responded 200 in 6.6369 ms
+[Kavita] [2024-03-25 06:53:48.369 +00:00  93] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/people responded 200 in 4.9681 ms
+[Kavita] [2024-03-25 06:53:48.418 +00:00  93] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/publication-status responded 200 in 1.4315 ms
+[Kavita] [2024-03-25 06:53:48.454 +00:00  239] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 2.0347 ms
+[Kavita] [2024-03-25 07:33:51.244 +00:00  328] [Information] API.Controllers.PluginController Plugin Tachiyomi-Kavita has authenticated with beellz (1)'s API Key
+[Kavita] [2024-03-25 07:33:51.301 +00:00  328] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Plugin/authenticate?apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&pluginName=Tachiyomi-Kavita responded 200 in 70.3926 ms
+[Kavita] [2024-03-25 07:33:51.445 +00:00  328] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Server/server-info responded 200 in 97.9397 ms
+[Kavita] [2024-03-25 07:33:51.544 +00:00  328] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/genres responded 200 in 2.4465 ms
+[Kavita] [2024-03-25 07:33:51.609 +00:00  328] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/tags responded 200 in 2.1581 ms
+[Kavita] [2024-03-25 07:33:51.654 +00:00  315] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/age-ratings responded 200 in 1.2838 ms
+[Kavita] [2024-03-25 07:33:51.716 +00:00  260] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Collection responded 200 in 6.2353 ms
+[Kavita] [2024-03-25 07:33:51.785 +00:00  328] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/languages responded 200 in 2.0659 ms
+[Kavita] [2024-03-25 07:33:51.860 +00:00  315] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 07:33:51.863 +00:00  315] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Library responded 200 in 4.1076 ms
+[Kavita] [2024-03-25 07:33:51.955 +00:00  260] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/people responded 200 in 2.9627 ms
+[Kavita] [2024-03-25 07:33:52.011 +00:00  328] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/publication-status responded 200 in 1.0035 ms
+[Kavita] [2024-03-25 07:33:52.135 +00:00  315] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 1.3421 ms
+[Kavita] [2024-03-25 07:33:56.666 +00:00  315] [Information] API.Controllers.PluginController Plugin Tachiyomi-Kavita has authenticated with beellz (1)'s API Key
+[Kavita] [2024-03-25 07:33:56.721 +00:00  315] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Plugin/authenticate?apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&pluginName=Tachiyomi-Kavita responded 200 in 59.3188 ms
+[Kavita] [2024-03-25 07:33:56.950 +00:00  315] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Server/server-info responded 200 in 71.1961 ms
+[Kavita] [2024-03-25 07:33:57.164 +00:00  315] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/genres responded 200 in 2.2714 ms
+[Kavita] [2024-03-25 07:33:57.309 +00:00  315] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/tags responded 200 in 2.0259 ms
+[Kavita] [2024-03-25 07:33:57.447 +00:00  328] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/age-ratings responded 200 in 0.9574 ms
+[Kavita] [2024-03-25 07:33:57.595 +00:00  315] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Collection responded 200 in 6.0657 ms
+[Kavita] [2024-03-25 07:33:57.734 +00:00  260] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/languages responded 200 in 1.9859 ms
+[Kavita] [2024-03-25 07:33:57.869 +00:00  260] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 07:33:57.872 +00:00  260] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Library responded 200 in 3.8023 ms
+[Kavita] [2024-03-25 07:33:58.015 +00:00  328] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/people responded 200 in 2.9960 ms
+[Kavita] [2024-03-25 07:33:58.161 +00:00  291] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/publication-status responded 200 in 0.7831 ms
+[Kavita] [2024-03-25 07:33:58.297 +00:00  315] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 1.3044 ms
+[Kavita] [2024-03-25 07:48:10.647 +00:00  262] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET / responded 200 in 40.4908 ms
+[Kavita] [2024-03-25 07:48:12.638 +00:00  357] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/theme responded 200 in 70.5750 ms
+[Kavita] [2024-03-25 07:48:14.324 +00:00  262] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/admin/exists responded 200 in 20.8709 ms
+[Kavita] [2024-03-25 07:48:19.922 +00:00  42] [Information] API.Controllers.AccountController beellz attempting to login from ::ffff:172.29.0.1
+[Kavita] [2024-03-25 07:48:20.254 +00:00  42] [Information] API.Controllers.AccountController beellz logged in at "2024-03-25T07:48:20.1369737+00:00"
+[Kavita] [2024-03-25 07:48:20.506 +00:00  42] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/account/login responded 200 in 751.7505 ms
+[Kavita] [2024-03-25 07:48:20.988 +00:00  70] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/license/valid-license?forceCheck=false responded 200 in 35.9123 ms
+[Kavita] [2024-03-25 07:48:21.016 +00:00  357] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/device responded 200 in 69.2061 ms
+[Kavita] [2024-03-25 07:48:21.327 +00:00  357] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /hubs/messages/negotiate?negotiateVersion=1 responded 200 in 27.0847 ms
+[Kavita] [2024-03-25 07:48:21.335 +00:00  357] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 07:48:21.340 +00:00  357] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/library responded 200 in 5.9330 ms
+[Kavita] [2024-03-25 07:48:21.426 +00:00  70] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/stream/dashboard?visibleOnly=true responded 200 in 162.9719 ms
+[Kavita] [2024-03-25 07:48:21.440 +00:00  262] [Warning] Microsoft.EntityFrameworkCore.Query Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+[Kavita] [2024-03-25 07:48:21.531 +00:00  262] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/stream/sidenav?visibleOnly=true responded 200 in 246.5474 ms
+[Kavita] [2024-03-25 07:48:21.781 +00:00  70] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/stream/dashboard?visibleOnly=true responded 200 in 3.2716 ms
+[Kavita] [2024-03-25 07:48:22.257 +00:00  70] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/series/recently-added-v2?pageNumber=1&pageSize=20 responded 200 in 118.1687 ms
+[Kavita] [2024-03-25 07:48:22.261 +00:00  42] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/series/recently-updated-series responded 200 in 125.9909 ms
+[Kavita] [2024-03-25 07:48:22.288 +00:00  357] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/series/on-deck?libraryId=0&pageNumber=1&pageSize=20 responded 200 in 153.7729 ms
+[Kavita] [2024-03-25 07:48:22.621 +00:00  70] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 07:48:22.625 +00:00  70] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/library responded 200 in 4.1213 ms
+[Kavita] [2024-03-25 07:48:23.263 +00:00  262] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 07:48:23.266 +00:00  262] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/library responded 200 in 4.0439 ms
+[Kavita] [2024-03-25 07:48:23.622 +00:00  262] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 07:48:23.625 +00:00  262] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/library responded 200 in 3.8684 ms
+[Kavita] [2024-03-25 07:48:24.126 +00:00  70] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 07:48:24.129 +00:00  70] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/library responded 200 in 4.2194 ms
+[Kavita] [2024-03-25 07:48:24.479 +00:00  262] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 07:48:24.482 +00:00  262] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/library responded 200 in 3.8963 ms
+[Kavita] [2024-03-25 07:48:24.839 +00:00  262] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 07:48:24.843 +00:00  262] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/library responded 200 in 3.9697 ms
+[Kavita] [2024-03-25 07:48:25.177 +00:00  70] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 07:48:25.182 +00:00  70] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/library responded 200 in 6.0378 ms
+[Kavita] [2024-03-25 07:48:25.519 +00:00  70] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 07:48:25.523 +00:00  70] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/library responded 200 in 5.5798 ms
+[Kavita] [2024-03-25 07:48:26.106 +00:00  70] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 07:48:26.109 +00:00  70] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/library responded 200 in 4.2276 ms
+[Kavita] [2024-03-25 07:48:26.464 +00:00  70] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 07:48:26.468 +00:00  70] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/library responded 200 in 3.9289 ms
+[Kavita] [2024-03-25 07:48:26.827 +00:00  70] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 07:48:26.831 +00:00  70] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/library responded 200 in 3.9448 ms
+[Kavita] [2024-03-25 07:48:27.183 +00:00  262] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 07:48:27.186 +00:00  262] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/library responded 200 in 3.8724 ms
+[Kavita] [2024-03-25 07:48:27.522 +00:00  42] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 07:48:27.525 +00:00  42] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/library responded 200 in 3.8931 ms
+[Kavita] [2024-03-25 07:48:27.859 +00:00  42] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 07:48:27.862 +00:00  42] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/library responded 200 in 3.9051 ms
+[Kavita] [2024-03-25 07:48:28.217 +00:00  262] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 07:48:28.220 +00:00  262] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/library responded 200 in 3.7845 ms
+[Kavita] [2024-03-25 07:48:28.576 +00:00  42] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 07:48:28.579 +00:00  42] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/library responded 200 in 3.8285 ms
+[Kavita] [2024-03-25 07:48:28.931 +00:00  42] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 07:48:28.935 +00:00  42] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/library responded 200 in 4.7234 ms
+[Kavita] [2024-03-25 07:48:29.483 +00:00  42] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 07:48:29.486 +00:00  42] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/library responded 200 in 3.9539 ms
+[Kavita] [2024-03-25 07:48:29.818 +00:00  70] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 07:48:29.824 +00:00  70] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/library responded 200 in 7.8350 ms
+[Kavita] [2024-03-25 07:48:29.825 +00:00  262] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=721&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 24.7908 ms
+[Kavita] [2024-03-25 07:48:30.158 +00:00  42] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 07:48:30.161 +00:00  42] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/library responded 200 in 3.9923 ms
+[Kavita] [2024-03-25 07:48:32.112 +00:00  70] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/users/has-library-access?libraryId=2 responded 200 in 74.3043 ms
+[Kavita] [2024-03-25 07:48:33.329 +00:00  42] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/users/has-library-access?libraryId=2 responded 200 in 2.9538 ms
+[Kavita] [2024-03-25 07:48:33.693 +00:00  42] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 1.5635 ms
+[Kavita] [2024-03-25 07:48:33.795 +00:00  42] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/series/v2 responded 200 in 87.0896 ms
+[Kavita] [2024-03-25 07:48:33.801 +00:00  271] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/library/jump-bar?libraryId=2 responded 200 in 96.0841 ms
+[Kavita] [2024-03-25 07:48:34.316 +00:00  357] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=120&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 8.3117 ms
+[Kavita] [2024-03-25 07:48:34.322 +00:00  42] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=125&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 14.1457 ms
+[Kavita] [2024-03-25 07:48:34.335 +00:00  262] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=124&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 9.0921 ms
+[Kavita] [2024-03-25 07:48:34.337 +00:00  271] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=123&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 7.9229 ms
+[Kavita] [2024-03-25 07:48:34.341 +00:00  309] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=117&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 15.7708 ms
+[Kavita] [2024-03-25 07:48:34.346 +00:00  42] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=130&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 21.0093 ms
+[Kavita] [2024-03-25 07:48:34.680 +00:00  309] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=122&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 8.6082 ms
+[Kavita] [2024-03-25 07:48:34.689 +00:00  262] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=128&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 9.1416 ms
+[Kavita] [2024-03-25 07:48:36.797 +00:00  42] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=119&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 6.9144 ms
+[Kavita] [2024-03-25 07:48:37.786 +00:00  271] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=131&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 10.7656 ms
+[Kavita] [2024-03-25 07:48:38.748 +00:00  271] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=126&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 10.3769 ms
+[Kavita] [2024-03-25 07:48:39.697 +00:00  271] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=118&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 7.9947 ms
+[Kavita] [2024-03-25 07:48:40.722 +00:00  309] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=127&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 9.0107 ms
+[Kavita] [2024-03-25 07:48:41.475 +00:00  309] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=129&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 8.5882 ms
+[Kavita] [2024-03-25 07:48:42.251 +00:00  262] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=105&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 9.6453 ms
+[Kavita] [2024-03-25 07:48:43.007 +00:00  262] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=106&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 23.9331 ms
+[Kavita] [2024-03-25 07:48:43.953 +00:00  271] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=107&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 11.3818 ms
+[Kavita] [2024-03-25 07:48:44.583 +00:00  309] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=108&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 15.6795 ms
+[Kavita] [2024-03-25 07:48:45.400 +00:00  70] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=109&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 27.2159 ms
+[Kavita] [2024-03-25 07:48:45.892 +00:00  271] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=110&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 12.9179 ms
+[Kavita] [2024-03-25 07:48:46.633 +00:00  271] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=111&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 13.4921 ms
+[Kavita] [2024-03-25 07:48:47.422 +00:00  262] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=113&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 16.1425 ms
+[Kavita] [2024-03-25 07:48:48.857 +00:00  309] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=112&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 16.2153 ms
+[Kavita] [2024-03-25 07:48:49.351 +00:00  262] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=116&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 24.6272 ms
+[Kavita] [2024-03-25 07:48:49.355 +00:00  262] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=121&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 7.6756 ms
+[Kavita] [2024-03-25 07:48:49.357 +00:00  357] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=115&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 29.6363 ms
+[Kavita] [2024-03-25 07:48:49.370 +00:00  271] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=114&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 25.0196 ms
+[Kavita] [2024-03-25 07:48:49.374 +00:00  309] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=104&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 25.8768 ms
+[Kavita] [2024-03-25 07:49:06.593 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/users/has-library-access?libraryId=3 responded 200 in 3.0433 ms
+[Kavita] [2024-03-25 07:49:10.784 +00:00  357] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/users/has-library-access?libraryId=3 responded 200 in 5.8454 ms
+[Kavita] [2024-03-25 07:49:13.061 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/users/has-library-access?libraryId=3 responded 200 in 6.4193 ms
+[Kavita] [2024-03-25 07:49:13.073 +00:00  357] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/users/has-library-access?libraryId=3 responded 200 in 7.2097 ms
+[Kavita] [2024-03-25 07:49:13.423 +00:00  70] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/users/has-library-access?libraryId=3 responded 200 in 7.7495 ms
+[Kavita] [2024-03-25 07:49:13.871 +00:00  262] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 2.8004 ms
+[Kavita] [2024-03-25 07:49:13.896 +00:00  70] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/library/jump-bar?libraryId=3 responded 200 in 15.5865 ms
+[Kavita] [2024-03-25 07:49:13.916 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/series/v2 responded 200 in 63.4193 ms
+[Kavita] [2024-03-25 07:49:14.507 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=142&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 17.3655 ms
+[Kavita] [2024-03-25 07:49:14.556 +00:00  213] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=133&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 43.0815 ms
+[Kavita] [2024-03-25 07:49:14.557 +00:00  262] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=145&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 65.0945 ms
+[Kavita] [2024-03-25 07:49:14.564 +00:00  262] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=146&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 37.7641 ms
+[Kavita] [2024-03-25 07:49:14.579 +00:00  262] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=143&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 39.6519 ms
+[Kavita] [2024-03-25 07:49:14.579 +00:00  213] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=132&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 41.3740 ms
+[Kavita] [2024-03-25 07:49:14.582 +00:00  262] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=144&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 74.9667 ms
+[Kavita] [2024-03-25 07:49:14.587 +00:00  357] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=139&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 74.7889 ms
+[Kavita] [2024-03-25 07:49:16.113 +00:00  213] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=137&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 9.6871 ms
+[Kavita] [2024-03-25 07:49:20.166 +00:00  262] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=148&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 21.9849 ms
+[Kavita] [2024-03-25 07:49:22.881 +00:00  213] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=160&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 39.7143 ms
+[Kavita] [2024-03-25 07:49:23.617 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=156&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 12.0975 ms
+[Kavita] [2024-03-25 07:49:24.379 +00:00  357] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=168&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 8.4550 ms
+[Kavita] [2024-03-25 07:49:25.157 +00:00  213] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=676&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 15.3070 ms
+[Kavita] [2024-03-25 07:49:26.269 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=699&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 17.1470 ms
+[Kavita] [2024-03-25 07:49:39.377 +00:00  186] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=691&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 10.2407 ms
+[Kavita] [2024-03-25 07:49:39.399 +00:00  262] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=681&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 16.8373 ms
+[Kavita] [2024-03-25 07:49:40.342 +00:00  262] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=205&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 5.5017 ms
+[Kavita] [2024-03-25 07:49:40.365 +00:00  213] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=171&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 7.7195 ms
+[Kavita] [2024-03-25 07:49:40.367 +00:00  262] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=210&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 11.5331 ms
+[Kavita] [2024-03-25 07:49:40.377 +00:00  213] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=175&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 19.4180 ms
+[Kavita] [2024-03-25 07:49:40.382 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=189&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 32.5982 ms
+[Kavita] [2024-03-25 07:49:41.537 +00:00  70] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=158&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 9.7291 ms
+[Kavita] [2024-03-25 07:49:43.601 +00:00  70] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=164&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 22.5579 ms
+[Kavita] [2024-03-25 07:49:46.337 +00:00  213] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=176&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 8.0001 ms
+[Kavita] [2024-03-25 07:49:49.080 +00:00  70] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=174&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 6.2171 ms
+[Kavita] [2024-03-25 07:49:49.385 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=218&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 4.5298 ms
+[Kavita] [2024-03-25 07:49:49.719 +00:00  70] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=243&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 4.3573 ms
+[Kavita] [2024-03-25 07:49:49.874 +00:00  70] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=201&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 15.8000 ms
+[Kavita] [2024-03-25 07:49:50.301 +00:00  70] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=178&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 9.6220 ms
+[Kavita] [2024-03-25 07:49:50.771 +00:00  213] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=179&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 16.5191 ms
+[Kavita] [2024-03-25 07:49:52.676 +00:00  70] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=200&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 12.2173 ms
+[Kavita] [2024-03-25 07:49:53.135 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=214&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 22.5278 ms
+[Kavita] [2024-03-25 07:49:53.396 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=170&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 18.0800 ms
+[Kavita] [2024-03-25 07:49:53.407 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=217&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 48.4251 ms
+[Kavita] [2024-03-25 07:49:53.461 +00:00  70] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=180&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 5.1949 ms
+[Kavita] [2024-03-25 07:49:54.560 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=195&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 17.6689 ms
+[Kavita] [2024-03-25 07:49:54.860 +00:00  213] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=191&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 5.4692 ms
+[Kavita] [2024-03-25 07:49:55.957 +00:00  213] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=194&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 6.4768 ms
+[Kavita] [2024-03-25 07:49:55.961 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=141&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 9.3717 ms
+[Kavita] [2024-03-25 07:49:55.976 +00:00  357] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=223&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 5.0534 ms
+[Kavita] [2024-03-25 07:49:55.977 +00:00  297] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=204&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 6.4841 ms
+[Kavita] [2024-03-25 07:49:55.982 +00:00  70] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=207&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 18.5750 ms
+[Kavita] [2024-03-25 07:49:55.991 +00:00  297] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=147&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 22.1884 ms
+[Kavita] [2024-03-25 07:49:55.993 +00:00  213] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=231&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 14.1354 ms
+[Kavita] [2024-03-25 07:49:59.708 +00:00  297] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/users/has-library-access?libraryId=1 responded 200 in 6.2701 ms
+[Kavita] [2024-03-25 07:50:02.256 +00:00  297] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/users/has-library-access?libraryId=1 responded 200 in 7.8932 ms
+[Kavita] [2024-03-25 07:50:02.658 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/library/jump-bar?libraryId=1 responded 200 in 3.9741 ms
+[Kavita] [2024-03-25 07:50:02.677 +00:00  70] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 1.4674 ms
+[Kavita] [2024-03-25 07:50:02.698 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/series/v2 responded 200 in 21.8594 ms
+[Kavita] [2024-03-25 07:50:03.149 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=5&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 19.3051 ms
+[Kavita] [2024-03-25 07:50:03.151 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=9&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 21.3125 ms
+[Kavita] [2024-03-25 07:50:03.196 +00:00  297] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=10&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 48.5992 ms
+[Kavita] [2024-03-25 07:50:03.198 +00:00  297] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=1&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 50.4116 ms
+[Kavita] [2024-03-25 07:50:03.207 +00:00  213] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=11&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 50.7506 ms
+[Kavita] [2024-03-25 07:50:03.207 +00:00  297] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=6&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 37.9860 ms
+[Kavita] [2024-03-25 07:50:03.209 +00:00  262] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=13&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 35.9912 ms
+[Kavita] [2024-03-25 07:50:03.214 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=7&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 67.6315 ms
+[Kavita] [2024-03-25 07:50:04.843 +00:00  297] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=4&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 14.9882 ms
+[Kavita] [2024-03-25 07:50:06.870 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=3&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 17.3483 ms
+[Kavita] [2024-03-25 07:50:09.066 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=12&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 26.0250 ms
+[Kavita] [2024-03-25 07:50:09.978 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=62&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 29.9078 ms
+[Kavita] [2024-03-25 07:50:12.179 +00:00  262] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=100&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 32.0356 ms
+[Kavita] [2024-03-25 07:50:14.358 +00:00  213] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=73&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 23.9875 ms
+[Kavita] [2024-03-25 07:50:15.613 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=57&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 14.8681 ms
+[Kavita] [2024-03-25 07:50:17.472 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=80&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 16.3662 ms
+[Kavita] [2024-03-25 07:50:20.896 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=69&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 34.9388 ms
+[Kavita] [2024-03-25 07:50:20.899 +00:00  70] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=20&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 37.5535 ms
+[Kavita] [2024-03-25 07:50:20.924 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=81&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 37.2066 ms
+[Kavita] [2024-03-25 07:50:20.946 +00:00  213] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=60&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 46.5270 ms
+[Kavita] [2024-03-25 07:50:20.964 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=58&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 42.7038 ms
+[Kavita] [2024-03-25 07:50:20.971 +00:00  262] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=63&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 71.8399 ms
+[Kavita] [2024-03-25 07:50:20.977 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=76&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 70.2238 ms
+[Kavita] [2024-03-25 07:50:20.980 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=83&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 50.6526 ms
+[Kavita] [2024-03-25 07:50:21.201 +00:00  297] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=38&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 22.6348 ms
+[Kavita] [2024-03-25 07:50:21.204 +00:00  213] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=70&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 24.3140 ms
+[Kavita] [2024-03-25 07:50:21.213 +00:00  297] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=59&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 30.8943 ms
+[Kavita] [2024-03-25 07:50:21.300 +00:00  304] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=54&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 74.4864 ms
+[Kavita] [2024-03-25 07:50:21.312 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=92&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 90.4513 ms
+[Kavita] [2024-03-25 07:50:21.321 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=72&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 65.9971 ms
+[Kavita] [2024-03-25 07:50:21.324 +00:00  213] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=44&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 62.0749 ms
+[Kavita] [2024-03-25 07:50:21.328 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=103&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 88.3769 ms
+[Kavita] [2024-03-25 07:50:21.326 +00:00  304] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=67&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 91.7915 ms
+[Kavita] [2024-03-25 07:50:21.331 +00:00  213] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=64&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 96.4161 ms
+[Kavita] [2024-03-25 07:50:21.333 +00:00  297] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=82&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 57.2990 ms
+[Kavita] [2024-03-25 07:50:21.335 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=34&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 77.3650 ms
+[Kavita] [2024-03-25 07:50:21.334 +00:00  304] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=74&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 53.3505 ms
+[Kavita] [2024-03-25 07:50:21.337 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=78&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 98.3633 ms
+[Kavita] [2024-03-25 07:50:21.334 +00:00  213] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=33&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 67.4474 ms
+[Kavita] [2024-03-25 07:50:21.587 +00:00  297] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=98&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 14.9665 ms
+[Kavita] [2024-03-25 07:50:21.827 +00:00  297] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=25&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 19.2027 ms
+[Kavita] [2024-03-25 07:50:21.827 +00:00  213] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=51&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 19.7906 ms
+[Kavita] [2024-03-25 07:50:54.943 +00:00  304] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=18&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 48.1698 ms
+[Kavita] [2024-03-25 07:50:54.966 +00:00  304] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=43&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 73.4324 ms
+[Kavita] [2024-03-25 07:50:54.985 +00:00  272] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=52&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 90.6024 ms
+[Kavita] [2024-03-25 07:50:55.014 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=53&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 50.4907 ms
+[Kavita] [2024-03-25 07:50:55.017 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=85&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 105.8694 ms
+[Kavita] [2024-03-25 07:50:55.023 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=68&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 67.6477 ms
+[Kavita] [2024-03-25 07:50:55.025 +00:00  55] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=15&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 70.9896 ms
+[Kavita] [2024-03-25 07:50:55.031 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=29&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 58.5811 ms
+[Kavita] [2024-03-25 07:50:55.032 +00:00  197] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=86&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 73.0129 ms
+[Kavita] [2024-03-25 07:50:55.037 +00:00  55] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=101&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 39.8929 ms
+[Kavita] [2024-03-25 07:50:55.124 +00:00  55] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=97&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 14.2516 ms
+[Kavita] [2024-03-25 08:00:13.708 +00:00  287] [Information] API.Services.Plus.ScrobblingService Starting Scrobble Processing
+[Kavita] [2024-03-25 08:00:13.890 +00:00  287] [Information] API.Services.Plus.ScrobblingService Found 0 Scrobble Events
+[Kavita] [2024-03-25 08:00:13.891 +00:00  287] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-03-25 08:00:13.893 +00:00  287] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-03-25 08:00:13.895 +00:00  287] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-03-25 08:00:13.897 +00:00  287] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-03-25 08:00:13.899 +00:00  287] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-03-25 08:00:13.900 +00:00  287] [Information] API.Services.Plus.ScrobblingService Scrobbling Events is complete
+[Kavita] [2024-03-25 08:18:34.244 +00:00  103] [Information] API.Controllers.PluginController Plugin Tachiyomi-Kavita has authenticated with beellz (1)'s API Key
+[Kavita] [2024-03-25 08:18:34.281 +00:00  103] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Plugin/authenticate?apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&pluginName=Tachiyomi-Kavita responded 200 in 43.0218 ms
+[Kavita] [2024-03-25 08:18:34.379 +00:00  303] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Server/server-info responded 200 in 62.5271 ms
+[Kavita] [2024-03-25 08:18:34.447 +00:00  303] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/genres responded 200 in 2.6773 ms
+[Kavita] [2024-03-25 08:18:34.486 +00:00  303] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/tags responded 200 in 2.4715 ms
+[Kavita] [2024-03-25 08:18:34.530 +00:00  103] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/age-ratings responded 200 in 1.3215 ms
+[Kavita] [2024-03-25 08:18:34.593 +00:00  303] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Collection responded 200 in 6.7619 ms
+[Kavita] [2024-03-25 08:18:34.643 +00:00  303] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/languages responded 200 in 2.2316 ms
+[Kavita] [2024-03-25 08:18:34.680 +00:00  303] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 08:18:34.683 +00:00  303] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Library responded 200 in 4.0671 ms
+[Kavita] [2024-03-25 08:18:34.717 +00:00  103] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/people responded 200 in 3.2663 ms
+[Kavita] [2024-03-25 08:18:34.779 +00:00  103] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/publication-status responded 200 in 1.0070 ms
+[Kavita] [2024-03-25 08:18:34.824 +00:00  126] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 1.3891 ms
+[Kavita] [2024-03-25 08:19:32.617 +00:00  126] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/series/all-v2?pageNumber=1&pageSize=20 responded 200 in 44.0905 ms
+[Kavita] [2024-03-25 08:21:12.734 +00:00  156] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/series/all-v2?pageNumber=1&pageSize=20 responded 200 in 22.7914 ms
+[Kavita] [2024-03-25 08:53:38.590 +00:00  347] [Information] API.Controllers.PluginController Plugin Tachiyomi-Kavita has authenticated with beellz (1)'s API Key
+[Kavita] [2024-03-25 08:53:38.629 +00:00  347] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Plugin/authenticate?apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&pluginName=Tachiyomi-Kavita responded 200 in 45.5525 ms
+[Kavita] [2024-03-25 08:53:38.712 +00:00  347] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Server/server-info responded 200 in 57.9058 ms
+[Kavita] [2024-03-25 08:53:38.759 +00:00  211] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/genres responded 200 in 2.5904 ms
+[Kavita] [2024-03-25 08:53:38.800 +00:00  347] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/tags responded 200 in 2.1765 ms
+[Kavita] [2024-03-25 08:53:38.833 +00:00  211] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/age-ratings responded 200 in 1.1829 ms
+[Kavita] [2024-03-25 08:53:38.870 +00:00  57] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Collection responded 200 in 6.8740 ms
+[Kavita] [2024-03-25 08:53:38.911 +00:00  211] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/languages responded 200 in 2.1646 ms
+[Kavita] [2024-03-25 08:53:38.942 +00:00  57] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 08:53:38.945 +00:00  57] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Library responded 200 in 4.0444 ms
+[Kavita] [2024-03-25 08:53:38.975 +00:00  211] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/people responded 200 in 3.0929 ms
+[Kavita] [2024-03-25 08:53:39.010 +00:00  211] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/publication-status responded 200 in 0.9278 ms
+[Kavita] [2024-03-25 08:53:39.035 +00:00  347] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 1.4697 ms
+[Kavita] [2024-03-25 08:53:54.158 +00:00  196] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/series/all-v2?pageNumber=1&pageSize=20 responded 200 in 29.1142 ms
+[Kavita] [2024-03-25 08:54:48.003 +00:00  113] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/series/all-v2?pageNumber=1&pageSize=20 responded 200 in 20.9725 ms
+[Kavita] [2024-03-25 09:08:07.122 +00:00  99] [Information] API.Controllers.PluginController Plugin Tachiyomi-Kavita has authenticated with beellz (1)'s API Key
+[Kavita] [2024-03-25 09:08:07.177 +00:00  99] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Plugin/authenticate?apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&pluginName=Tachiyomi-Kavita responded 200 in 70.0581 ms
+[Kavita] [2024-03-25 09:08:07.270 +00:00  251] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Server/server-info responded 200 in 56.9225 ms
+[Kavita] [2024-03-25 09:08:07.325 +00:00  251] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/genres responded 200 in 2.4185 ms
+[Kavita] [2024-03-25 09:08:07.367 +00:00  99] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/tags responded 200 in 2.2550 ms
+[Kavita] [2024-03-25 09:08:07.402 +00:00  251] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/age-ratings responded 200 in 1.3435 ms
+[Kavita] [2024-03-25 09:08:07.439 +00:00  99] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Collection responded 200 in 7.1648 ms
+[Kavita] [2024-03-25 09:08:07.475 +00:00  99] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/languages responded 200 in 4.1480 ms
+[Kavita] [2024-03-25 09:08:07.507 +00:00  352] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 09:08:07.510 +00:00  352] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Library responded 200 in 4.1768 ms
+[Kavita] [2024-03-25 09:08:07.551 +00:00  352] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/people responded 200 in 3.0573 ms
+[Kavita] [2024-03-25 09:08:07.582 +00:00  99] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/publication-status responded 200 in 0.9434 ms
+[Kavita] [2024-03-25 09:08:07.621 +00:00  99] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 1.4134 ms
+[Kavita] [2024-03-25 09:08:08.862 +00:00  251] [Information] API.Controllers.PluginController Plugin Tachiyomi-Kavita has authenticated with beellz (1)'s API Key
+[Kavita] [2024-03-25 09:08:08.894 +00:00  251] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Plugin/authenticate?apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&pluginName=Tachiyomi-Kavita responded 200 in 34.6191 ms
+[Kavita] [2024-03-25 09:08:08.984 +00:00  251] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Server/server-info responded 200 in 55.6654 ms
+[Kavita] [2024-03-25 09:08:09.019 +00:00  251] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/genres responded 200 in 2.3715 ms
+[Kavita] [2024-03-25 09:08:09.052 +00:00  251] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/tags responded 200 in 2.0519 ms
+[Kavita] [2024-03-25 09:08:09.089 +00:00  251] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/age-ratings responded 200 in 0.9597 ms
+[Kavita] [2024-03-25 09:08:09.131 +00:00  251] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Collection responded 200 in 6.7901 ms
+[Kavita] [2024-03-25 09:08:09.164 +00:00  251] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/languages responded 200 in 1.9350 ms
+[Kavita] [2024-03-25 09:08:09.200 +00:00  352] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 09:08:09.203 +00:00  352] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Library responded 200 in 3.9472 ms
+[Kavita] [2024-03-25 09:08:09.240 +00:00  352] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/people responded 200 in 3.2333 ms
+[Kavita] [2024-03-25 09:08:09.278 +00:00  352] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/publication-status responded 200 in 0.7719 ms
+[Kavita] [2024-03-25 09:08:09.536 +00:00  251] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 1.2641 ms
+[Kavita] [2024-03-25 09:09:34.249 +00:00  130] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /hubs/messages/negotiate?negotiateVersion=1 responded 200 in 2.9737 ms
+[Kavita] [2024-03-25 09:09:34.384 +00:00  344] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/account/refresh-token responded 200 in 109.9082 ms
+[Kavita] [2024-03-25 09:09:34.733 +00:00  352] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/license/valid-license?forceCheck=false responded 200 in 2.3992 ms
+[Kavita] [2024-03-25 09:09:34.735 +00:00  152] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /hubs/messages/negotiate?negotiateVersion=1 responded 200 in 0.8624 ms
+[Kavita] [2024-03-25 09:09:35.080 +00:00  130] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/device responded 200 in 5.4407 ms
+[Kavita] [2024-03-25 09:09:42.220 +00:00  352] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=22&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 55.5925 ms
+[Kavita] [2024-03-25 09:09:42.222 +00:00  344] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=41&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 57.4580 ms
+[Kavita] [2024-03-25 09:09:42.229 +00:00  152] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=39&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 59.7393 ms
+[Kavita] [2024-03-25 09:09:42.531 +00:00  152] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=46&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 21.4087 ms
+[Kavita] [2024-03-25 09:09:42.546 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=84&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 31.6502 ms
+[Kavita] [2024-03-25 09:09:42.567 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=48&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 47.9123 ms
+[Kavita] [2024-03-25 09:09:42.572 +00:00  344] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=71&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 24.4829 ms
+[Kavita] [2024-03-25 09:09:42.573 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=102&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 32.4512 ms
+[Kavita] [2024-03-25 09:09:42.582 +00:00  152] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=87&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 17.9334 ms
+[Kavita] [2024-03-25 09:09:42.589 +00:00  130] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=77&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 51.9108 ms
+[Kavita] [2024-03-25 09:09:42.592 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=45&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 38.3254 ms
+[Kavita] [2024-03-25 09:09:46.653 +00:00  352] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/users/has-library-access?libraryId=1 responded 200 in 2.8748 ms
+[Kavita] [2024-03-25 09:09:47.060 +00:00  152] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/series/metadata?seriesId=101 responded 200 in 20.8556 ms
+[Kavita] [2024-03-25 09:09:47.084 +00:00  352] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/has-progress?seriesId=101 responded 200 in 51.9018 ms
+[Kavita] [2024-03-25 09:09:47.095 +00:00  344] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/want-to-read?seriesId=101 responded 200 in 55.7557 ms
+[Kavita] [2024-03-25 09:09:47.100 +00:00  352] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/series/101 responded 200 in 14.5111 ms
+[Kavita] [2024-03-25 09:09:47.112 +00:00  309] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/continue-point?seriesId=101 responded 200 in 73.1818 ms
+[Kavita] [2024-03-25 09:09:47.129 +00:00  152] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/readinglist/lists-for-series?seriesId=101 responded 200 in 67.1989 ms
+[Kavita] [2024-03-25 09:09:47.168 +00:00  344] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/library/type?libraryId=1 responded 200 in 70.4308 ms
+[Kavita] [2024-03-25 09:09:47.639 +00:00  352] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/review?seriesId=101 responded 200 in 119.7118 ms
+[Kavita] [2024-03-25 09:09:47.707 +00:00  344] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/series/all-related?seriesId=101 responded 200 in 186.6263 ms
+[Kavita] [2024-03-25 09:09:48.047 +00:00  352] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/scrobbling/has-hold?seriesId=101 responded 200 in 45.6377 ms
+[Kavita] [2024-03-25 09:09:48.079 +00:00  344] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/recommended/recommendations?seriesId=101 responded 200 in 83.4850 ms
+[Kavita] [2024-03-25 09:09:48.150 +00:00  152] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/series/series-detail?seriesId=101 responded 200 in 162.7695 ms
+[Kavita] [2024-03-25 09:09:48.164 +00:00  352] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/rating/overall?seriesId=101 responded 200 in 114.1591 ms
+[Kavita] [2024-03-25 09:09:48.247 +00:00  309] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/series/next-expected?seriesId=101 responded 200 in 812.6451 ms
+[Kavita] [2024-03-25 09:09:48.523 +00:00  344] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/time-left?seriesId=101 responded 200 in 55.1398 ms
+[Kavita] [2024-03-25 09:09:48.528 +00:00  309] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/scrobbling/library-allows-scrobbling?seriesId=101 responded 200 in 29.1383 ms
+[Kavita] [2024-03-25 09:09:48.578 +00:00  344] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/chapter-cover?chapterId=439&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 44.5121 ms
+[Kavita] [2024-03-25 09:09:54.441 +00:00  152] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/users/has-library-access?libraryId=1 responded 200 in 6.2445 ms
+[Kavita] [2024-03-25 09:09:54.937 +00:00  152] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/chapter-bookmarks?chapterId=439 responded 200 in 95.7403 ms
+[Kavita] [2024-03-25 09:09:54.945 +00:00  309] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/get-progress?chapterId=439 responded 200 in 99.9883 ms
+[Kavita] [2024-03-25 09:09:54.957 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/users/has-reading-progress?libraryId=1 responded 200 in 112.3006 ms
+[Kavita] [2024-03-25 09:09:55.164 +00:00  344] [Debug] API.Services.ArchiveService Extracted archive to /kavita/config/cache/439/ in 122 milliseconds
+[Kavita] [2024-03-25 09:09:55.609 +00:00  344] [Debug] API.Services.CacheService File Dimensions call for 16 images took 129ms
+[Kavita] [2024-03-25 09:09:55.645 +00:00  344] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/chapter-info?chapterId=439&includeDimensions=true responded 200 in 810.0638 ms
+[Kavita] [2024-03-25 09:09:56.012 +00:00  309] [Information] API.Controllers.ReaderController Fetching Page 5 on Chapter 439
+[Kavita] [2024-03-25 09:09:56.015 +00:00  130] [Information] API.Controllers.ReaderController Fetching Page 0 on Chapter 439
+[Kavita] [2024-03-25 09:09:56.017 +00:00  352] [Information] API.Controllers.ReaderController Fetching Page 3 on Chapter 439
+[Kavita] [2024-03-25 09:09:56.025 +00:00  297] [Information] API.Controllers.ReaderController Fetching Page 4 on Chapter 439
+[Kavita] [2024-03-25 09:09:56.050 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/next-chapter?seriesId=101&volumeId=101&currentChapterId=439 responded 200 in 64.1219 ms
+[Kavita] [2024-03-25 09:09:56.052 +00:00  344] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/prev-chapter?seriesId=101&volumeId=101&currentChapterId=439 responded 200 in 65.8820 ms
+[Kavita] [2024-03-25 09:09:56.058 +00:00  77] [Information] API.Controllers.ReaderController Fetching Page 6 on Chapter 439
+[Kavita] [2024-03-25 09:09:56.064 +00:00  297] [Information] API.Controllers.ReaderController Fetching Page 7 on Chapter 439
+[Kavita] [2024-03-25 09:09:56.067 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=439&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=4 responded 200 in 55.3710 ms
+[Kavita] [2024-03-25 09:09:56.071 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=439&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=5 responded 200 in 65.1370 ms
+[Kavita] [2024-03-25 09:09:56.075 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=439&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=0 responded 200 in 70.9759 ms
+[Kavita] [2024-03-25 09:09:56.076 +00:00  344] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=439&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=3 responded 200 in 64.0837 ms
+[Kavita] [2024-03-25 09:09:56.079 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=439&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=6 responded 200 in 27.2731 ms
+[Kavita] [2024-03-25 09:09:56.088 +00:00  297] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=439&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=7 responded 200 in 36.1582 ms
+[Kavita] [2024-03-25 09:09:56.103 +00:00  152] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/reader/progress responded 200 in 115.3525 ms
+[Kavita] [2024-03-25 09:09:56.355 +00:00  152] [Information] API.Controllers.ReaderController Fetching Page 1 on Chapter 439
+[Kavita] [2024-03-25 09:09:56.364 +00:00  152] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=439&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=1 responded 200 in 12.4211 ms
+[Kavita] [2024-03-25 09:09:56.407 +00:00  77] [Information] API.Controllers.ReaderController Fetching Page 2 on Chapter 439
+[Kavita] [2024-03-25 09:09:56.413 +00:00  297] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=439&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=2 responded 200 in 9.5569 ms
+[Kavita] [2024-03-25 09:10:06.395 +00:00  77] [Information] API.Controllers.ReaderController Fetching Page 8 on Chapter 439
+[Kavita] [2024-03-25 09:10:06.414 +00:00  152] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=439&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=8 responded 200 in 28.5627 ms
+[Kavita] [2024-03-25 09:10:06.673 +00:00  297] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/reader/progress responded 200 in 284.1274 ms
+[Kavita] [2024-03-25 09:10:10.908 +00:00  344] [Information] API.Controllers.ReaderController Fetching Page 9 on Chapter 439
+[Kavita] [2024-03-25 09:10:10.914 +00:00  152] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=439&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=9 responded 200 in 9.0280 ms
+[Kavita] [2024-03-25 09:10:10.932 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/reader/progress responded 200 in 26.6757 ms
+[Kavita] [2024-03-25 09:10:14.677 +00:00  352] [Information] API.Controllers.ReaderController Fetching Page 10 on Chapter 439
+[Kavita] [2024-03-25 09:10:14.691 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/reader/progress responded 200 in 22.5544 ms
+[Kavita] [2024-03-25 09:10:14.698 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=439&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=10 responded 200 in 27.4500 ms
+[Kavita] [2024-03-25 09:10:16.879 +00:00  77] [Information] API.Controllers.ReaderController Fetching Page 11 on Chapter 439
+[Kavita] [2024-03-25 09:10:16.893 +00:00  352] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=439&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=11 responded 200 in 20.9365 ms
+[Kavita] [2024-03-25 09:10:16.897 +00:00  152] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/reader/progress responded 200 in 24.5490 ms
+[Kavita] [2024-03-25 09:10:17.614 +00:00  297] [Information] API.Controllers.ReaderController Fetching Page 12 on Chapter 439
+[Kavita] [2024-03-25 09:10:17.621 +00:00  152] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=439&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=12 responded 200 in 9.9333 ms
+[Kavita] [2024-03-25 09:10:17.626 +00:00  352] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/reader/progress responded 200 in 14.7343 ms
+[Kavita] [2024-03-25 09:10:19.112 +00:00  352] [Information] API.Controllers.ReaderController Fetching Page 13 on Chapter 439
+[Kavita] [2024-03-25 09:10:19.120 +00:00  130] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=439&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=13 responded 200 in 11.3121 ms
+[Kavita] [2024-03-25 09:10:19.126 +00:00  297] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/reader/progress responded 200 in 24.1349 ms
+[Kavita] [2024-03-25 09:10:20.545 +00:00  352] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/reader/progress responded 200 in 23.1175 ms
+[Kavita] [2024-03-25 09:10:22.900 +00:00  297] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/users/has-library-access?libraryId=1 responded 200 in 5.9602 ms
+[Kavita] [2024-03-25 09:10:23.274 +00:00  152] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/has-progress?seriesId=101 responded 200 in 12.9902 ms
+[Kavita] [2024-03-25 09:10:23.279 +00:00  344] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/want-to-read?seriesId=101 responded 200 in 11.9017 ms
+[Kavita] [2024-03-25 09:10:23.295 +00:00  297] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/series/metadata?seriesId=101 responded 200 in 42.5543 ms
+[Kavita] [2024-03-25 09:10:23.298 +00:00  152] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/series/101 responded 200 in 22.3324 ms
+[Kavita] [2024-03-25 09:10:23.309 +00:00  130] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/readinglist/lists-for-series?seriesId=101 responded 200 in 7.5817 ms
+[Kavita] [2024-03-25 09:10:23.311 +00:00  352] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/stream/sidenav?visibleOnly=true responded 200 in 50.6146 ms
+[Kavita] [2024-03-25 09:10:23.324 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/continue-point?seriesId=101 responded 200 in 62.6246 ms
+[Kavita] [2024-03-25 09:10:23.649 +00:00  130] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/series/next-expected?seriesId=101 responded 200 in 15.0956 ms
+[Kavita] [2024-03-25 09:10:23.653 +00:00  101] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/review?seriesId=101 responded 200 in 6.7735 ms
+[Kavita] [2024-03-25 09:10:23.658 +00:00  152] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/scrobbling/library-allows-scrobbling?seriesId=101 responded 200 in 5.2963 ms
+[Kavita] [2024-03-25 09:10:23.669 +00:00  297] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/rating/overall?seriesId=101 responded 200 in 11.4878 ms
+[Kavita] [2024-03-25 09:10:23.675 +00:00  130] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/scrobbling/has-hold?seriesId=101 responded 200 in 13.1070 ms
+[Kavita] [2024-03-25 09:10:23.676 +00:00  101] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/time-left?seriesId=101 responded 200 in 19.5282 ms
+[Kavita] [2024-03-25 09:10:23.680 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/series/series-detail?seriesId=101 responded 200 in 38.6094 ms
+[Kavita] [2024-03-25 09:10:23.689 +00:00  352] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/series/all-related?seriesId=101 responded 200 in 42.5396 ms
+[Kavita] [2024-03-25 09:10:24.025 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/recommended/recommendations?seriesId=101 responded 200 in 1.5403 ms
+[Kavita] [2024-03-25 09:10:24.192 +00:00  101] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/time-left?seriesId=101 responded 200 in 8.9766 ms
+[Kavita] [2024-03-25 09:19:35.747 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/account/refresh-token responded 200 in 99.7695 ms
+[Kavita] [2024-03-25 09:19:36.410 +00:00  281] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/license/valid-license?forceCheck=false responded 200 in 0.7194 ms
+[Kavita] [2024-03-25 09:19:36.452 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /hubs/messages/negotiate?negotiateVersion=1 responded 200 in 1.9376 ms
+[Kavita] [2024-03-25 09:19:36.455 +00:00  206] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/device responded 200 in 5.8507 ms
+[Kavita] [2024-03-25 09:19:36.462 +00:00  246] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/time-left?seriesId=101 responded 200 in 15.4134 ms
+[Kavita] [2024-03-25 09:21:17.488 +00:00  281] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/users/has-library-access?libraryId=1 responded 200 in 7.2711 ms
+[Kavita] [2024-03-25 09:21:18.150 +00:00  281] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/users/has-library-access?libraryId=1 responded 200 in 7.2878 ms
+[Kavita] [2024-03-25 09:21:18.599 +00:00  364] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/series/v2 responded 200 in 46.2416 ms
+[Kavita] [2024-03-25 09:21:18.911 +00:00  364] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/library/jump-bar?libraryId=1 responded 200 in 7.2369 ms
+[Kavita] [2024-03-25 09:21:18.941 +00:00  281] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 2.4600 ms
+[Kavita] [2024-03-25 09:21:19.173 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=7&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 6.5512 ms
+[Kavita] [2024-03-25 09:21:19.173 +00:00  364] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=13&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 14.9431 ms
+[Kavita] [2024-03-25 09:21:19.174 +00:00  356] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=1&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 5.4339 ms
+[Kavita] [2024-03-25 09:21:19.507 +00:00  281] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=57&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 8.4152 ms
+[Kavita] [2024-03-25 09:21:19.516 +00:00  263] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=83&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 18.1047 ms
+[Kavita] [2024-03-25 09:21:19.521 +00:00  364] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=4&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 7.7435 ms
+[Kavita] [2024-03-25 09:21:19.529 +00:00  281] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=64&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 5.9414 ms
+[Kavita] [2024-03-25 09:21:19.540 +00:00  263] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=59&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 9.6720 ms
+[Kavita] [2024-03-25 09:21:19.545 +00:00  356] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=20&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 22.1658 ms
+[Kavita] [2024-03-25 09:21:19.554 +00:00  281] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=51&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 14.0054 ms
+[Kavita] [2024-03-25 09:21:19.558 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=100&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 55.8901 ms
+[Kavita] [2024-03-25 09:21:19.563 +00:00  132] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=78&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 32.4975 ms
+[Kavita] [2024-03-25 09:21:19.565 +00:00  263] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=62&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 15.0449 ms
+[Kavita] [2024-03-25 09:21:19.572 +00:00  364] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=44&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 38.4355 ms
+[Kavita] [2024-03-25 09:21:19.575 +00:00  281] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=33&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 18.0399 ms
+[Kavita] [2024-03-25 09:21:19.578 +00:00  132] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=25&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 12.5648 ms
+[Kavita] [2024-03-25 09:21:19.582 +00:00  356] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=11&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 23.3447 ms
+[Kavita] [2024-03-25 09:21:19.590 +00:00  364] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=92&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 11.2683 ms
+[Kavita] [2024-03-25 09:21:19.594 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=6&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 26.7911 ms
+[Kavita] [2024-03-25 09:21:19.607 +00:00  356] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=80&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 20.0125 ms
+[Kavita] [2024-03-25 09:21:19.601 +00:00  263] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=12&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 21.6511 ms
+[Kavita] [2024-03-25 09:21:19.603 +00:00  281] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=81&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 20.7690 ms
+[Kavita] [2024-03-25 09:21:19.611 +00:00  364] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=5&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 6.5184 ms
+[Kavita] [2024-03-25 09:21:19.613 +00:00  356] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=10&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 3.3462 ms
+[Kavita] [2024-03-25 09:21:19.614 +00:00  281] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=72&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 4.4127 ms
+[Kavita] [2024-03-25 09:21:19.617 +00:00  356] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=103&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 3.3243 ms
+[Kavita] [2024-03-25 09:21:19.617 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=82&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 6.6030 ms
+[Kavita] [2024-03-25 09:21:19.618 +00:00  263] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=70&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 7.0787 ms
+[Kavita] [2024-03-25 09:21:19.619 +00:00  281] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=74&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 4.0121 ms
+[Kavita] [2024-03-25 09:21:19.625 +00:00  132] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=69&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 3.0605 ms
+[Kavita] [2024-03-25 09:21:19.626 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=76&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 4.0378 ms
+[Kavita] [2024-03-25 09:21:19.629 +00:00  132] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=3&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 3.1743 ms
+[Kavita] [2024-03-25 09:21:19.627 +00:00  281] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=34&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 4.7277 ms
+[Kavita] [2024-03-25 09:21:19.632 +00:00  263] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=73&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 5.2104 ms
+[Kavita] [2024-03-25 09:21:19.633 +00:00  132] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=9&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 2.7197 ms
+[Kavita] [2024-03-25 09:21:19.638 +00:00  263] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=60&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 3.9340 ms
+[Kavita] [2024-03-25 09:21:19.642 +00:00  132] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=54&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 3.0505 ms
+[Kavita] [2024-03-25 09:21:19.637 +00:00  356] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=38&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 2.9609 ms
+[Kavita] [2024-03-25 09:21:19.618 +00:00  364] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=67&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 5.4126 ms
+[Kavita] [2024-03-25 09:21:19.642 +00:00  281] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=58&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 11.0107 ms
+[Kavita] [2024-03-25 09:21:19.641 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=63&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 12.7949 ms
+[Kavita] [2024-03-25 09:21:19.642 +00:00  232] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=98&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 15.5229 ms
+[Kavita] [2024-03-25 09:21:19.678 +00:00  53] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=47&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 39.5322 ms
+[Kavita] [2024-03-25 09:21:19.679 +00:00  263] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=88&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 39.6014 ms
+[Kavita] [2024-03-25 09:21:19.694 +00:00  364] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=36&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 110.2673 ms
+[Kavita] [2024-03-25 09:21:19.868 +00:00  263] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=39&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 2.3938 ms
+[Kavita] [2024-03-25 09:21:19.873 +00:00  364] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=48&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 2.5433 ms
+[Kavita] [2024-03-25 09:21:19.873 +00:00  232] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=97&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 2.5444 ms
+[Kavita] [2024-03-25 09:21:19.878 +00:00  263] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=41&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 2.5185 ms
+[Kavita] [2024-03-25 09:21:19.883 +00:00  364] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=18&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 2.5548 ms
+[Kavita] [2024-03-25 09:21:19.898 +00:00  232] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=71&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 9.2680 ms
+[Kavita] [2024-03-25 09:21:19.902 +00:00  53] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=87&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 7.4084 ms
+[Kavita] [2024-03-25 09:21:19.903 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=22&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 6.3906 ms
+[Kavita] [2024-03-25 09:21:19.911 +00:00  281] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=102&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 8.6221 ms
+[Kavita] [2024-03-25 09:21:19.913 +00:00  232] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=46&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 11.0941 ms
+[Kavita] [2024-03-25 09:21:19.922 +00:00  263] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=53&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 3.8504 ms
+[Kavita] [2024-03-25 09:21:19.923 +00:00  364] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=45&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 9.8660 ms
+[Kavita] [2024-03-25 09:21:19.932 +00:00  281] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=43&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 19.0876 ms
+[Kavita] [2024-03-25 09:21:19.937 +00:00  281] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=77&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 3.7583 ms
+[Kavita] [2024-03-25 09:21:19.949 +00:00  281] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=15&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 3.7129 ms
+[Kavita] [2024-03-25 09:21:19.944 +00:00  232] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=29&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 8.2008 ms
+[Kavita] [2024-03-25 09:21:19.945 +00:00  263] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=86&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 16.6931 ms
+[Kavita] [2024-03-25 09:21:19.952 +00:00  364] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=52&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 22.4306 ms
+[Kavita] [2024-03-25 09:21:19.957 +00:00  232] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=28&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 71.5750 ms
+[Kavita] [2024-03-25 09:21:19.964 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=84&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 7.4224 ms
+[Kavita] [2024-03-25 09:21:19.961 +00:00  263] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=68&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 3.5438 ms
+[Kavita] [2024-03-25 09:21:19.972 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=19&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 63.6126 ms
+[Kavita] [2024-03-25 09:21:19.973 +00:00  263] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=75&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 77.0099 ms
+[Kavita] [2024-03-25 09:21:19.978 +00:00  364] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=85&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 15.8639 ms
+[Kavita] [2024-03-25 09:21:19.979 +00:00  232] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=42&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 50.3099 ms
+[Kavita] [2024-03-25 09:21:19.984 +00:00  281] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=99&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 44.6910 ms
+[Kavita] [2024-03-25 09:21:19.990 +00:00  263] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=16&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 78.6915 ms
+[Kavita] [2024-03-25 09:21:19.988 +00:00  364] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=65&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 97.9673 ms
+[Kavita] [2024-03-25 09:21:19.997 +00:00  263] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=24&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 80.2099 ms
+[Kavita] [2024-03-25 09:21:23.592 +00:00  281] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/users/has-library-access?libraryId=1 responded 200 in 2.9388 ms
+[Kavita] [2024-03-25 09:21:23.979 +00:00  281] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/want-to-read?seriesId=103 responded 200 in 5.4367 ms
+[Kavita] [2024-03-25 09:21:23.978 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/readinglist/lists-for-series?seriesId=103 responded 200 in 2.1221 ms
+[Kavita] [2024-03-25 09:21:23.985 +00:00  265] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/has-progress?seriesId=103 responded 200 in 3.1030 ms
+[Kavita] [2024-03-25 09:21:23.989 +00:00  232] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/series/103 responded 200 in 15.8055 ms
+[Kavita] [2024-03-25 09:21:23.990 +00:00  263] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/continue-point?seriesId=103 responded 200 in 17.1309 ms
+[Kavita] [2024-03-25 09:21:23.993 +00:00  364] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/series/metadata?seriesId=103 responded 200 in 26.6379 ms
+[Kavita] [2024-03-25 09:21:24.348 +00:00  53] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/review?seriesId=103 responded 200 in 9.0599 ms
+[Kavita] [2024-03-25 09:21:24.357 +00:00  281] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/scrobbling/has-hold?seriesId=103 responded 200 in 1.7889 ms
+[Kavita] [2024-03-25 09:21:24.357 +00:00  265] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/scrobbling/library-allows-scrobbling?seriesId=103 responded 200 in 1.6800 ms
+[Kavita] [2024-03-25 09:21:24.367 +00:00  232] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/time-left?seriesId=103 responded 200 in 15.6443 ms
+[Kavita] [2024-03-25 09:21:24.367 +00:00  132] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/rating/overall?seriesId=103 responded 200 in 6.4165 ms
+[Kavita] [2024-03-25 09:21:24.372 +00:00  263] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/series/next-expected?seriesId=103 responded 200 in 26.6338 ms
+[Kavita] [2024-03-25 09:21:24.381 +00:00  364] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/series/series-detail?seriesId=103 responded 200 in 38.6890 ms
+[Kavita] [2024-03-25 09:21:24.395 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/series/all-related?seriesId=103 responded 200 in 47.7532 ms
+[Kavita] [2024-03-25 09:21:24.706 +00:00  364] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/recommended/recommendations?seriesId=103 responded 200 in 6.9243 ms
+[Kavita] [2024-03-25 09:21:24.765 +00:00  132] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/chapter-cover?chapterId=441&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 21.5071 ms
+[Kavita] [2024-03-25 09:21:37.758 +00:00  263] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/users/has-library-access?libraryId=1 responded 200 in 6.9293 ms
+[Kavita] [2024-03-25 09:21:38.150 +00:00  364] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/get-progress?chapterId=441 responded 200 in 7.3705 ms
+[Kavita] [2024-03-25 09:21:38.154 +00:00  263] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/users/has-reading-progress?libraryId=1 responded 200 in 11.3172 ms
+[Kavita] [2024-03-25 09:21:38.161 +00:00  132] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/chapter-bookmarks?chapterId=441 responded 200 in 10.9139 ms
+[Kavita] [2024-03-25 09:21:38.320 +00:00  83] [Debug] API.Services.ArchiveService Extracted archive to /kavita/config/cache/441/ in 166 milliseconds
+[Kavita] [2024-03-25 09:21:38.366 +00:00  83] [Debug] API.Services.CacheService File Dimensions call for 31 images took 32ms
+[Kavita] [2024-03-25 09:21:38.368 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/chapter-info?chapterId=441&includeDimensions=true responded 200 in 225.2978 ms
+[Kavita] [2024-03-25 09:21:38.712 +00:00  364] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/next-chapter?seriesId=103&volumeId=103&currentChapterId=441 responded 200 in 5.7363 ms
+[Kavita] [2024-03-25 09:21:38.724 +00:00  281] [Information] API.Controllers.ReaderController Fetching Page 2 on Chapter 441
+[Kavita] [2024-03-25 09:21:38.725 +00:00  176] [Information] API.Controllers.ReaderController Fetching Page 0 on Chapter 441
+[Kavita] [2024-03-25 09:21:38.728 +00:00  281] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=441&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=2 responded 200 in 10.1316 ms
+[Kavita] [2024-03-25 09:21:38.728 +00:00  232] [Information] API.Controllers.ReaderController Fetching Page 6 on Chapter 441
+[Kavita] [2024-03-25 09:21:38.731 +00:00  176] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=441&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=0 responded 200 in 13.4154 ms
+[Kavita] [2024-03-25 09:21:38.735 +00:00  132] [Information] API.Controllers.ReaderController Fetching Page 3 on Chapter 441
+[Kavita] [2024-03-25 09:21:38.736 +00:00  53] [Information] API.Controllers.ReaderController Fetching Page 4 on Chapter 441
+[Kavita] [2024-03-25 09:21:38.743 +00:00  281] [Information] API.Controllers.ReaderController Fetching Page 5 on Chapter 441
+[Kavita] [2024-03-25 09:21:38.744 +00:00  364] [Information] API.Controllers.ReaderController Fetching Page 7 on Chapter 441
+[Kavita] [2024-03-25 09:21:38.748 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/prev-chapter?seriesId=103&volumeId=103&currentChapterId=441 responded 200 in 36.2068 ms
+[Kavita] [2024-03-25 09:21:38.752 +00:00  263] [Information] API.Controllers.ReaderController Fetching Page 1 on Chapter 441
+[Kavita] [2024-03-25 09:21:38.754 +00:00  281] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=441&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=6 responded 200 in 32.2507 ms
+[Kavita] [2024-03-25 09:21:38.755 +00:00  53] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=441&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=4 responded 200 in 32.8769 ms
+[Kavita] [2024-03-25 09:21:38.755 +00:00  176] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=441&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=3 responded 200 in 29.4708 ms
+[Kavita] [2024-03-25 09:21:38.764 +00:00  281] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=441&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=7 responded 200 in 47.1225 ms
+[Kavita] [2024-03-25 09:21:38.769 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=441&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=5 responded 200 in 36.9951 ms
+[Kavita] [2024-03-25 09:21:38.779 +00:00  364] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=441&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=1 responded 200 in 53.1113 ms
+[Kavita] [2024-03-25 09:21:48.749 +00:00  83] [Information] API.Controllers.ReaderController Fetching Page 8 on Chapter 441
+[Kavita] [2024-03-25 09:21:48.762 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=441&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=8 responded 200 in 19.1088 ms
+[Kavita] [2024-03-25 09:21:50.481 +00:00  364] [Information] API.Controllers.ReaderController Fetching Page 9 on Chapter 441
+[Kavita] [2024-03-25 09:21:50.485 +00:00  364] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=441&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=9 responded 200 in 7.5935 ms
+[Kavita] [2024-03-25 09:21:55.835 +00:00  83] [Information] API.Controllers.ReaderController Fetching Page 10 on Chapter 441
+[Kavita] [2024-03-25 09:21:55.852 +00:00  132] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=441&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=10 responded 200 in 23.6018 ms
+[Kavita] [2024-03-25 09:22:13.955 +00:00  53] [Information] API.Controllers.ReaderController Fetching Page 11 on Chapter 441
+[Kavita] [2024-03-25 09:22:13.959 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=441&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=11 responded 200 in 7.7135 ms
+[Kavita] [2024-03-25 09:22:27.676 +00:00  132] [Information] API.Controllers.ReaderController Fetching Page 12 on Chapter 441
+[Kavita] [2024-03-25 09:22:27.689 +00:00  132] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=441&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=12 responded 200 in 21.8508 ms
+[Kavita] [2024-03-25 09:22:29.520 +00:00  83] [Information] API.Controllers.ReaderController Fetching Page 13 on Chapter 441
+[Kavita] [2024-03-25 09:22:29.528 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=441&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=13 responded 200 in 15.0364 ms
+[Kavita] [2024-03-25 09:22:30.811 +00:00  83] [Information] API.Controllers.ReaderController Fetching Page 14 on Chapter 441
+[Kavita] [2024-03-25 09:22:30.821 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=441&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=14 responded 200 in 16.2590 ms
+[Kavita] [2024-03-25 09:22:32.484 +00:00  83] [Information] API.Controllers.ReaderController Fetching Page 15 on Chapter 441
+[Kavita] [2024-03-25 09:22:32.489 +00:00  144] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=441&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=15 responded 200 in 7.8790 ms
+[Kavita] [2024-03-25 09:22:33.986 +00:00  83] [Information] API.Controllers.ReaderController Fetching Page 16 on Chapter 441
+[Kavita] [2024-03-25 09:22:33.993 +00:00  132] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=441&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=16 responded 200 in 10.6302 ms
+[Kavita] [2024-03-25 09:22:35.567 +00:00  53] [Information] API.Controllers.ReaderController Fetching Page 17 on Chapter 441
+[Kavita] [2024-03-25 09:22:35.576 +00:00  144] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=441&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=17 responded 200 in 11.1929 ms
+[Kavita] [2024-03-25 09:22:37.623 +00:00  83] [Information] API.Controllers.ReaderController Fetching Page 18 on Chapter 441
+[Kavita] [2024-03-25 09:22:37.634 +00:00  144] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=441&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=18 responded 200 in 17.9638 ms
+[Kavita] [2024-03-25 09:22:40.403 +00:00  132] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/users/has-library-access?libraryId=1 responded 200 in 7.0754 ms
+[Kavita] [2024-03-25 09:22:40.841 +00:00  53] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/continue-point?seriesId=103 responded 200 in 13.6422 ms
+[Kavita] [2024-03-25 09:22:40.853 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/stream/sidenav?visibleOnly=true responded 200 in 20.9270 ms
+[Kavita] [2024-03-25 09:22:40.855 +00:00  144] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/series/103 responded 200 in 24.4597 ms
+[Kavita] [2024-03-25 09:22:40.853 +00:00  53] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/readinglist/lists-for-series?seriesId=103 responded 200 in 5.5647 ms
+[Kavita] [2024-03-25 09:22:40.862 +00:00  144] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/has-progress?seriesId=103 responded 200 in 4.3703 ms
+[Kavita] [2024-03-25 09:22:40.865 +00:00  132] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/series/metadata?seriesId=103 responded 200 in 38.0320 ms
+[Kavita] [2024-03-25 09:22:40.868 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/want-to-read?seriesId=103 responded 200 in 12.0169 ms
+[Kavita] [2024-03-25 09:22:41.248 +00:00  144] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/review?seriesId=103 responded 200 in 3.6365 ms
+[Kavita] [2024-03-25 09:22:41.265 +00:00  132] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/series/series-detail?seriesId=103 responded 200 in 17.5190 ms
+[Kavita] [2024-03-25 09:22:41.277 +00:00  132] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/scrobbling/has-hold?seriesId=103 responded 200 in 2.2955 ms
+[Kavita] [2024-03-25 09:22:41.284 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/time-left?seriesId=103 responded 200 in 12.8086 ms
+[Kavita] [2024-03-25 09:22:41.287 +00:00  132] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/rating/overall?seriesId=103 responded 200 in 7.3709 ms
+[Kavita] [2024-03-25 09:22:41.288 +00:00  144] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/series/next-expected?seriesId=103 responded 200 in 13.9000 ms
+[Kavita] [2024-03-25 09:22:41.293 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/scrobbling/library-allows-scrobbling?seriesId=103 responded 200 in 7.2094 ms
+[Kavita] [2024-03-25 09:22:41.294 +00:00  53] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/series/all-related?seriesId=103 responded 200 in 46.1240 ms
+[Kavita] [2024-03-25 09:22:41.637 +00:00  144] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/recommended/recommendations?seriesId=103 responded 200 in 0.9092 ms
+[Kavita] [2024-03-25 09:22:44.441 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/users/has-library-access?libraryId=1 responded 200 in 2.9526 ms
+[Kavita] [2024-03-25 09:22:44.819 +00:00  144] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/users/has-library-access?libraryId=1 responded 200 in 3.1624 ms
+[Kavita] [2024-03-25 09:22:45.234 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 1.5965 ms
+[Kavita] [2024-03-25 09:22:45.255 +00:00  144] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/series/v2 responded 200 in 22.7446 ms
+[Kavita] [2024-03-25 09:22:45.652 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=13&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 4.1856 ms
+[Kavita] [2024-03-25 09:22:45.653 +00:00  144] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=1&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 3.3569 ms
+[Kavita] [2024-03-25 09:22:45.664 +00:00  53] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=5&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 3.8380 ms
+[Kavita] [2024-03-25 09:22:45.664 +00:00  132] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=9&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 13.9722 ms
+[Kavita] [2024-03-25 09:22:45.667 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=7&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 3.5300 ms
+[Kavita] [2024-03-25 09:22:45.667 +00:00  364] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=11&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 3.5306 ms
+[Kavita] [2024-03-25 09:22:45.699 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=3&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 31.2877 ms
+[Kavita] [2024-03-25 09:22:45.700 +00:00  364] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=4&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 32.3832 ms
+[Kavita] [2024-03-25 09:22:45.708 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/library/jump-bar?libraryId=1 responded 200 in 3.8424 ms
+[Kavita] [2024-03-25 09:22:45.710 +00:00  53] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=10&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 45.4210 ms
+[Kavita] [2024-03-25 09:22:45.715 +00:00  132] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=6&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 48.7687 ms
+[Kavita] [2024-03-25 09:22:45.821 +00:00  132] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/series-cover?seriesId=12&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 304 in 2.3581 ms
+[Kavita] [2024-03-25 09:22:50.398 +00:00  128] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/users/has-library-access?libraryId=1 responded 200 in 6.3346 ms
+[Kavita] [2024-03-25 09:22:50.818 +00:00  132] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/readinglist/lists-for-series?seriesId=29 responded 200 in 4.3447 ms
+[Kavita] [2024-03-25 09:22:50.817 +00:00  200] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/has-progress?seriesId=29 responded 200 in 3.7507 ms
+[Kavita] [2024-03-25 09:22:50.837 +00:00  128] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/series/29 responded 200 in 24.2090 ms
+[Kavita] [2024-03-25 09:22:50.840 +00:00  364] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/continue-point?seriesId=29 responded 200 in 27.5678 ms
+[Kavita] [2024-03-25 09:22:50.845 +00:00  53] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/want-to-read?seriesId=29 responded 200 in 22.0800 ms
+[Kavita] [2024-03-25 09:22:50.860 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/series/metadata?seriesId=29 responded 200 in 39.8856 ms
+[Kavita] [2024-03-25 09:22:51.238 +00:00  265] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/review?seriesId=29 responded 200 in 2.7178 ms
+[Kavita] [2024-03-25 09:22:51.243 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/scrobbling/has-hold?seriesId=29 responded 200 in 3.5092 ms
+[Kavita] [2024-03-25 09:22:51.245 +00:00  265] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/scrobbling/library-allows-scrobbling?seriesId=29 responded 200 in 2.8460 ms
+[Kavita] [2024-03-25 09:22:51.247 +00:00  132] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/rating/overall?seriesId=29 responded 200 in 3.5836 ms
+[Kavita] [2024-03-25 09:22:51.257 +00:00  364] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/time-left?seriesId=29 responded 200 in 14.9401 ms
+[Kavita] [2024-03-25 09:22:51.260 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/series/next-expected?seriesId=29 responded 200 in 14.7866 ms
+[Kavita] [2024-03-25 09:22:51.272 +00:00  144] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/series/series-detail?seriesId=29 responded 200 in 35.9295 ms
+[Kavita] [2024-03-25 09:22:51.277 +00:00  200] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/series/all-related?seriesId=29 responded 200 in 44.9292 ms
+[Kavita] [2024-03-25 09:22:51.597 +00:00  53] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/recommended/recommendations?seriesId=29 responded 200 in 0.8404 ms
+[Kavita] [2024-03-25 09:22:51.653 +00:00  53] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/image/chapter-cover?chapterId=68&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527 responded 200 in 12.4902 ms
+[Kavita] [2024-03-25 09:22:55.495 +00:00  132] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/users/has-library-access?libraryId=1 responded 200 in 2.8814 ms
+[Kavita] [2024-03-25 09:22:55.889 +00:00  53] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/get-progress?chapterId=68 responded 200 in 8.0218 ms
+[Kavita] [2024-03-25 09:22:55.897 +00:00  144] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/chapter-bookmarks?chapterId=68 responded 200 in 5.2399 ms
+[Kavita] [2024-03-25 09:22:55.910 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/users/has-reading-progress?libraryId=1 responded 200 in 9.5055 ms
+[Kavita] [2024-03-25 09:22:56.048 +00:00  132] [Debug] API.Services.ArchiveService Extracted archive to /kavita/config/cache/68/ in 143 milliseconds
+[Kavita] [2024-03-25 09:22:56.144 +00:00  132] [Debug] API.Services.CacheService File Dimensions call for 16 images took 12ms
+[Kavita] [2024-03-25 09:22:56.145 +00:00  132] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/chapter-info?chapterId=68&includeDimensions=true responded 200 in 253.4148 ms
+[Kavita] [2024-03-25 09:22:56.503 +00:00  200] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/next-chapter?seriesId=29&volumeId=29&currentChapterId=68 responded 200 in 4.3426 ms
+[Kavita] [2024-03-25 09:22:56.511 +00:00  200] [Information] API.Controllers.ReaderController Fetching Page 1 on Chapter 68
+[Kavita] [2024-03-25 09:22:56.516 +00:00  132] [Information] API.Controllers.ReaderController Fetching Page 0 on Chapter 68
+[Kavita] [2024-03-25 09:22:56.518 +00:00  364] [Information] API.Controllers.ReaderController Fetching Page 2 on Chapter 68
+[Kavita] [2024-03-25 09:22:56.520 +00:00  53] [Information] API.Controllers.ReaderController Fetching Page 4 on Chapter 68
+[Kavita] [2024-03-25 09:22:56.522 +00:00  83] [Information] API.Controllers.ReaderController Fetching Page 3 on Chapter 68
+[Kavita] [2024-03-25 09:22:56.522 +00:00  265] [Information] API.Controllers.ReaderController Fetching Page 6 on Chapter 68
+[Kavita] [2024-03-25 09:22:56.524 +00:00  144] [Information] API.Controllers.ReaderController Fetching Page 7 on Chapter 68
+[Kavita] [2024-03-25 09:22:56.527 +00:00  132] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=68&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=4 responded 200 in 12.0207 ms
+[Kavita] [2024-03-25 09:22:56.532 +00:00  53] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=68&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=0 responded 200 in 25.3601 ms
+[Kavita] [2024-03-25 09:22:56.536 +00:00  200] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=68&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=1 responded 200 in 30.2820 ms
+[Kavita] [2024-03-25 09:22:56.541 +00:00  53] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=68&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=2 responded 200 in 30.4303 ms
+[Kavita] [2024-03-25 09:22:56.544 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=68&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=6 responded 200 in 28.7326 ms
+[Kavita] [2024-03-25 09:22:56.547 +00:00  144] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=68&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=7 responded 200 in 33.5706 ms
+[Kavita] [2024-03-25 09:22:56.547 +00:00  53] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=68&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=3 responded 200 in 36.4784 ms
+[Kavita] [2024-03-25 09:22:56.560 +00:00  128] [Information] API.Controllers.ReaderController Fetching Page 5 on Chapter 68
+[Kavita] [2024-03-25 09:22:56.567 +00:00  128] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=68&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=5 responded 200 in 14.1786 ms
+[Kavita] [2024-03-25 09:22:56.975 +00:00  53] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/prev-chapter?seriesId=29&volumeId=29&currentChapterId=68 responded 200 in 4.3835 ms
+[Kavita] [2024-03-25 09:23:01.643 +00:00  128] [Information] API.Controllers.ReaderController Fetching Page 8 on Chapter 68
+[Kavita] [2024-03-25 09:23:01.653 +00:00  53] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=68&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=8 responded 200 in 13.2499 ms
+[Kavita] [2024-03-25 09:23:13.865 +00:00  200] [Information] API.Controllers.ReaderController Fetching Page 9 on Chapter 68
+[Kavita] [2024-03-25 09:23:13.881 +00:00  53] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=68&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=9 responded 200 in 18.8146 ms
+[Kavita] [2024-03-25 09:23:48.498 +00:00  265] [Information] API.Controllers.ReaderController Fetching Page 10 on Chapter 68
+[Kavita] [2024-03-25 09:23:48.515 +00:00  265] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=68&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=10 responded 200 in 23.8045 ms
+[Kavita] [2024-03-25 09:24:31.669 +00:00  176] [Information] API.Controllers.ReaderController Fetching Page 11 on Chapter 68
+[Kavita] [2024-03-25 09:24:31.684 +00:00  265] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=68&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=11 responded 200 in 24.5173 ms
+[Kavita] [2024-03-25 09:24:41.832 +00:00  263] [Information] API.Controllers.ReaderController Fetching Page 12 on Chapter 68
+[Kavita] [2024-03-25 09:24:41.846 +00:00  265] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=68&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=12 responded 200 in 20.8682 ms
+[Kavita] [2024-03-25 09:25:07.784 +00:00  200] [Information] API.Controllers.ReaderController Fetching Page 13 on Chapter 68
+[Kavita] [2024-03-25 09:25:07.796 +00:00  265] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=68&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=13 responded 200 in 18.5481 ms
+[Kavita] [2024-03-25 09:25:31.225 +00:00  265] [Information] API.Controllers.ReaderController Fetching Page 14 on Chapter 68
+[Kavita] [2024-03-25 09:25:31.237 +00:00  265] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=68&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=14 responded 200 in 19.3707 ms
+[Kavita] [2024-03-25 09:25:50.473 +00:00  200] [Information] API.Controllers.ReaderController Fetching Page 15 on Chapter 68
+[Kavita] [2024-03-25 09:25:50.487 +00:00  176] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=68&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=15 responded 200 in 20.9424 ms
+[Kavita] [2024-03-25 09:29:36.611 +00:00  174] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/account/refresh-token responded 200 in 48.5959 ms
+[Kavita] [2024-03-25 09:29:37.297 +00:00  354] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /hubs/messages/negotiate?negotiateVersion=1 responded 200 in 0.5259 ms
+[Kavita] [2024-03-25 09:29:37.492 +00:00  64] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/device responded 200 in 3.0353 ms
+[Kavita] [2024-03-25 09:29:37.519 +00:00  64] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/license/valid-license?forceCheck=false responded 200 in 0.7511 ms
+[Kavita] [2024-03-25 09:39:38.413 +00:00  309] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/account/refresh-token responded 200 in 76.7544 ms
+[Kavita] [2024-03-25 09:39:39.112 +00:00  175] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/device responded 200 in 3.3026 ms
+[Kavita] [2024-03-25 09:39:39.333 +00:00  344] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /hubs/messages/negotiate?negotiateVersion=1 responded 200 in 1.2337 ms
+[Kavita] [2024-03-25 09:39:39.347 +00:00  344] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/license/valid-license?forceCheck=false responded 200 in 1.7671 ms
+[Kavita] [2024-03-25 09:49:20.658 +00:00  286] [Information] API.Controllers.ReaderController Fetching Page 16 on Chapter 68
+[Kavita] [2024-03-25 09:49:20.673 +00:00  295] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/image?chapterId=68&apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&page=16 responded 200 in 27.8073 ms
+[Kavita] [2024-03-25 09:49:25.904 +00:00  292] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/users/has-library-access?libraryId=1 responded 200 in 3.0570 ms
+[Kavita] [2024-03-25 09:49:26.347 +00:00  292] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/stream/sidenav?visibleOnly=true responded 200 in 8.1921 ms
+[Kavita] [2024-03-25 09:49:26.598 +00:00  292] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/has-progress?seriesId=29 responded 200 in 1.9522 ms
+[Kavita] [2024-03-25 09:49:26.603 +00:00  113] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/continue-point?seriesId=29 responded 200 in 9.5183 ms
+[Kavita] [2024-03-25 09:49:26.636 +00:00  292] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/readinglist/lists-for-series?seriesId=29 responded 200 in 2.2384 ms
+[Kavita] [2024-03-25 09:49:26.643 +00:00  286] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/series/29 responded 200 in 9.8776 ms
+[Kavita] [2024-03-25 09:49:26.802 +00:00  113] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/want-to-read?seriesId=29 responded 200 in 3.4757 ms
+[Kavita] [2024-03-25 09:49:26.818 +00:00  113] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/series/metadata?seriesId=29 responded 200 in 10.2671 ms
+[Kavita] [2024-03-25 09:49:27.025 +00:00  113] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/series/series-detail?seriesId=29 responded 200 in 17.4047 ms
+[Kavita] [2024-03-25 09:49:27.036 +00:00  292] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/series/all-related?seriesId=29 responded 200 in 27.8979 ms
+[Kavita] [2024-03-25 09:49:27.082 +00:00  113] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/review?seriesId=29 responded 200 in 2.2872 ms
+[Kavita] [2024-03-25 09:49:27.200 +00:00  292] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/series/next-expected?seriesId=29 responded 200 in 10.3468 ms
+[Kavita] [2024-03-25 09:49:27.206 +00:00  157] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/reader/time-left?seriesId=29 responded 200 in 10.0074 ms
+[Kavita] [2024-03-25 09:49:27.253 +00:00  113] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/scrobbling/has-hold?seriesId=29 responded 200 in 1.7037 ms
+[Kavita] [2024-03-25 09:49:27.257 +00:00  157] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/scrobbling/library-allows-scrobbling?seriesId=29 responded 200 in 1.6315 ms
+[Kavita] [2024-03-25 09:49:27.546 +00:00  292] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/recommended/recommendations?seriesId=29 responded 200 in 1.1664 ms
+[Kavita] [2024-03-25 09:49:27.551 +00:00  286] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/rating/overall?seriesId=29 responded 200 in 2.7964 ms
+[Kavita] [2024-03-25 12:00:14.046 +00:00  223] [Information] API.Services.Plus.ScrobblingService Starting Scrobble Processing
+[Kavita] [2024-03-25 12:00:14.106 +00:00  223] [Information] API.Services.Plus.ScrobblingService Found 0 Scrobble Events
+[Kavita] [2024-03-25 12:00:14.107 +00:00  223] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-03-25 12:00:14.110 +00:00  223] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-03-25 12:00:14.112 +00:00  223] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-03-25 12:00:14.114 +00:00  223] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-03-25 12:00:14.116 +00:00  223] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-03-25 12:00:14.117 +00:00  223] [Information] API.Services.Plus.ScrobblingService Scrobbling Events is complete
+[Kavita] [2024-03-25 12:24:43.300 +00:00  173] [Information] API.Controllers.PluginController Plugin Tachiyomi-Kavita has authenticated with beellz (1)'s API Key
+[Kavita] [2024-03-25 12:24:43.355 +00:00  173] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Plugin/authenticate?apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&pluginName=Tachiyomi-Kavita responded 200 in 73.1958 ms
+[Kavita] [2024-03-25 12:24:44.055 +00:00  295] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Server/server-info responded 200 in 104.0206 ms
+[Kavita] [2024-03-25 12:24:45.278 +00:00  327] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/genres responded 200 in 2.5604 ms
+[Kavita] [2024-03-25 12:24:45.650 +00:00  327] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/tags responded 200 in 2.5152 ms
+[Kavita] [2024-03-25 12:24:46.026 +00:00  295] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/age-ratings responded 200 in 1.2505 ms
+[Kavita] [2024-03-25 12:24:46.591 +00:00  327] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Collection responded 200 in 6.7775 ms
+[Kavita] [2024-03-25 12:24:46.967 +00:00  327] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/languages responded 200 in 2.1912 ms
+[Kavita] [2024-03-25 12:24:47.326 +00:00  295] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 12:24:47.329 +00:00  295] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Library responded 200 in 4.1141 ms
+[Kavita] [2024-03-25 12:24:47.708 +00:00  327] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/people responded 200 in 3.0754 ms
+[Kavita] [2024-03-25 12:24:48.735 +00:00  173] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/publication-status responded 200 in 0.8954 ms
+[Kavita] [2024-03-25 12:24:49.191 +00:00  173] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 2.7640 ms
+[Kavita] [2024-03-25 13:14:19.880 +00:00  363] [Information] API.Controllers.PluginController Plugin Tachiyomi-Kavita has authenticated with beellz (1)'s API Key
+[Kavita] [2024-03-25 13:14:19.931 +00:00  363] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Plugin/authenticate?apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&pluginName=Tachiyomi-Kavita responded 200 in 63.2711 ms
+[Kavita] [2024-03-25 13:14:20.907 +00:00  363] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Server/server-info responded 200 in 106.1801 ms
+[Kavita] [2024-03-25 13:14:21.605 +00:00  363] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/genres responded 200 in 5.3179 ms
+[Kavita] [2024-03-25 13:14:22.001 +00:00  363] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/tags responded 200 in 2.2250 ms
+[Kavita] [2024-03-25 13:14:22.399 +00:00  363] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/age-ratings responded 200 in 1.2074 ms
+[Kavita] [2024-03-25 13:14:23.056 +00:00  306] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Collection responded 200 in 6.7576 ms
+[Kavita] [2024-03-25 13:14:23.460 +00:00  306] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/languages responded 200 in 2.1936 ms
+[Kavita] [2024-03-25 13:14:23.860 +00:00  129] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 13:14:23.864 +00:00  129] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Library responded 200 in 4.1957 ms
+[Kavita] [2024-03-25 13:14:25.081 +00:00  129] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/people responded 200 in 3.0315 ms
+[Kavita] [2024-03-25 13:14:25.427 +00:00  279] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/publication-status responded 200 in 0.9222 ms
+[Kavita] [2024-03-25 13:14:25.810 +00:00  279] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 1.5168 ms
+[Kavita] [2024-03-25 13:44:41.685 +00:00  82] [Information] API.Controllers.PluginController Plugin Tachiyomi-Kavita has authenticated with beellz (1)'s API Key
+[Kavita] [2024-03-25 13:44:41.728 +00:00  82] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Plugin/authenticate?apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&pluginName=Tachiyomi-Kavita responded 200 in 47.8775 ms
+[Kavita] [2024-03-25 13:44:41.953 +00:00  310] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Server/server-info responded 200 in 63.5148 ms
+[Kavita] [2024-03-25 13:44:42.147 +00:00  82] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/genres responded 200 in 2.5306 ms
+[Kavita] [2024-03-25 13:44:42.305 +00:00  68] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/tags responded 200 in 2.2307 ms
+[Kavita] [2024-03-25 13:44:42.468 +00:00  68] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/age-ratings responded 200 in 1.2057 ms
+[Kavita] [2024-03-25 13:44:42.630 +00:00  82] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Collection responded 200 in 6.7119 ms
+[Kavita] [2024-03-25 13:44:42.784 +00:00  82] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/languages responded 200 in 2.1344 ms
+[Kavita] [2024-03-25 13:44:42.933 +00:00  82] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 13:44:42.936 +00:00  82] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Library responded 200 in 4.2196 ms
+[Kavita] [2024-03-25 13:44:43.095 +00:00  310] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/people responded 200 in 3.0876 ms
+[Kavita] [2024-03-25 13:44:43.267 +00:00  82] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/publication-status responded 200 in 1.6748 ms
+[Kavita] [2024-03-25 13:44:43.438 +00:00  310] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 2.3647 ms
+[Kavita] [2024-03-25 13:47:55.948 +00:00  292] [Information] API.Controllers.PluginController Plugin Tachiyomi-Kavita has authenticated with beellz (1)'s API Key
+[Kavita] [2024-03-25 13:47:55.982 +00:00  292] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Plugin/authenticate?apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&pluginName=Tachiyomi-Kavita responded 200 in 36.0718 ms
+[Kavita] [2024-03-25 13:47:56.082 +00:00  292] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Server/server-info responded 200 in 54.8122 ms
+[Kavita] [2024-03-25 13:47:56.150 +00:00  325] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/genres responded 200 in 2.4955 ms
+[Kavita] [2024-03-25 13:47:56.196 +00:00  292] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/tags responded 200 in 2.0678 ms
+[Kavita] [2024-03-25 13:47:56.241 +00:00  292] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/age-ratings responded 200 in 0.9656 ms
+[Kavita] [2024-03-25 13:47:56.283 +00:00  325] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Collection responded 200 in 6.8621 ms
+[Kavita] [2024-03-25 13:47:56.323 +00:00  113] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/languages responded 200 in 2.0381 ms
+[Kavita] [2024-03-25 13:47:56.363 +00:00  292] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 13:47:56.365 +00:00  292] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Library responded 200 in 3.7553 ms
+[Kavita] [2024-03-25 13:47:56.443 +00:00  113] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/people responded 200 in 3.0140 ms
+[Kavita] [2024-03-25 13:47:56.537 +00:00  113] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/publication-status responded 200 in 0.7904 ms
+[Kavita] [2024-03-25 13:47:56.612 +00:00  113] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 1.3106 ms
+[Kavita] [2024-03-25 13:53:17.960 +00:00  77] [Information] API.Controllers.PluginController Plugin Tachiyomi-Kavita has authenticated with beellz (1)'s API Key
+[Kavita] [2024-03-25 13:53:18.012 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Plugin/authenticate?apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&pluginName=Tachiyomi-Kavita responded 200 in 55.9857 ms
+[Kavita] [2024-03-25 13:53:18.413 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Server/server-info responded 200 in 111.1185 ms
+[Kavita] [2024-03-25 13:53:18.895 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/genres responded 200 in 2.4587 ms
+[Kavita] [2024-03-25 13:53:18.953 +00:00  344] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/tags responded 200 in 2.1288 ms
+[Kavita] [2024-03-25 13:53:18.997 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/age-ratings responded 200 in 1.0361 ms
+[Kavita] [2024-03-25 13:53:19.045 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Collection responded 200 in 6.8689 ms
+[Kavita] [2024-03-25 13:53:19.094 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/languages responded 200 in 1.9933 ms
+[Kavita] [2024-03-25 13:53:19.128 +00:00  272] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 13:53:19.131 +00:00  272] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Library responded 200 in 3.8604 ms
+[Kavita] [2024-03-25 13:53:19.164 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/people responded 200 in 2.9872 ms
+[Kavita] [2024-03-25 13:53:19.211 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/publication-status responded 200 in 5.1696 ms
+[Kavita] [2024-03-25 13:53:19.244 +00:00  272] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 1.3971 ms
+[Kavita] [2024-03-25 13:53:19.923 +00:00  321] [Information] API.Controllers.PluginController Plugin Tachiyomi-Kavita has authenticated with beellz (1)'s API Key
+[Kavita] [2024-03-25 13:53:19.960 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Plugin/authenticate?apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&pluginName=Tachiyomi-Kavita responded 200 in 39.8950 ms
+[Kavita] [2024-03-25 13:53:20.051 +00:00  272] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Server/server-info responded 200 in 55.9676 ms
+[Kavita] [2024-03-25 13:53:20.088 +00:00  272] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/genres responded 200 in 2.5762 ms
+[Kavita] [2024-03-25 13:53:20.133 +00:00  272] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/tags responded 200 in 2.1573 ms
+[Kavita] [2024-03-25 13:53:20.165 +00:00  272] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/age-ratings responded 200 in 1.2128 ms
+[Kavita] [2024-03-25 13:53:20.206 +00:00  77] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Collection responded 200 in 6.2075 ms
+[Kavita] [2024-03-25 13:53:20.236 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/languages responded 200 in 1.9392 ms
+[Kavita] [2024-03-25 13:53:20.266 +00:00  321] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 13:53:20.269 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Library responded 200 in 4.0564 ms
+[Kavita] [2024-03-25 13:53:20.307 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/people responded 200 in 3.1079 ms
+[Kavita] [2024-03-25 13:53:20.345 +00:00  272] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/publication-status responded 200 in 0.7926 ms
+[Kavita] [2024-03-25 13:53:20.379 +00:00  321] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 1.3316 ms
+[Kavita] [2024-03-25 16:00:14.357 +00:00  216] [Information] API.Services.Plus.ScrobblingService Starting Scrobble Processing
+[Kavita] [2024-03-25 16:00:14.415 +00:00  216] [Information] API.Services.Plus.ScrobblingService Found 0 Scrobble Events
+[Kavita] [2024-03-25 16:00:14.418 +00:00  216] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-03-25 16:00:14.420 +00:00  216] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-03-25 16:00:14.423 +00:00  216] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-03-25 16:00:14.426 +00:00  216] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-03-25 16:00:14.429 +00:00  216] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-03-25 16:00:14.431 +00:00  216] [Information] API.Services.Plus.ScrobblingService Scrobbling Events is complete
+[Kavita] [2024-03-25 19:12:25.467 +00:00  248] [Information] API.Controllers.PluginController Plugin Tachiyomi-Kavita has authenticated with beellz (1)'s API Key
+[Kavita] [2024-03-25 19:12:25.508 +00:00  248] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Plugin/authenticate?apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&pluginName=Tachiyomi-Kavita responded 200 in 49.6682 ms
+[Kavita] [2024-03-25 19:12:25.598 +00:00  248] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Server/server-info responded 200 in 57.3286 ms
+[Kavita] [2024-03-25 19:12:25.651 +00:00  230] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/genres responded 200 in 2.5452 ms
+[Kavita] [2024-03-25 19:12:25.689 +00:00  248] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/tags responded 200 in 2.1835 ms
+[Kavita] [2024-03-25 19:12:25.721 +00:00  230] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/age-ratings responded 200 in 1.2040 ms
+[Kavita] [2024-03-25 19:12:25.765 +00:00  333] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Collection responded 200 in 6.2473 ms
+[Kavita] [2024-03-25 19:12:25.805 +00:00  333] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/languages responded 200 in 2.1186 ms
+[Kavita] [2024-03-25 19:12:25.832 +00:00  230] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 19:12:25.836 +00:00  230] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Library responded 200 in 4.0867 ms
+[Kavita] [2024-03-25 19:12:25.874 +00:00  248] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/people responded 200 in 3.0932 ms
+[Kavita] [2024-03-25 19:12:25.906 +00:00  230] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/publication-status responded 200 in 1.0367 ms
+[Kavita] [2024-03-25 19:12:25.934 +00:00  248] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 1.4719 ms
+[Kavita] [2024-03-25 19:34:12.420 +00:00  61] [Information] API.Controllers.PluginController Plugin Tachiyomi-Kavita has authenticated with beellz (1)'s API Key
+[Kavita] [2024-03-25 19:34:12.475 +00:00  61] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Plugin/authenticate?apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&pluginName=Tachiyomi-Kavita responded 200 in 66.6209 ms
+[Kavita] [2024-03-25 19:34:12.649 +00:00  61] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Server/server-info responded 200 in 57.5238 ms
+[Kavita] [2024-03-25 19:34:12.801 +00:00  61] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/genres responded 200 in 2.3965 ms
+[Kavita] [2024-03-25 19:34:12.907 +00:00  91] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/tags responded 200 in 2.2298 ms
+[Kavita] [2024-03-25 19:34:12.955 +00:00  91] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/age-ratings responded 200 in 0.9492 ms
+[Kavita] [2024-03-25 19:34:13.029 +00:00  61] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Collection responded 200 in 6.4996 ms
+[Kavita] [2024-03-25 19:34:13.065 +00:00  247] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/languages responded 200 in 2.2033 ms
+[Kavita] [2024-03-25 19:34:13.127 +00:00  247] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 19:34:13.131 +00:00  247] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Library responded 200 in 4.0660 ms
+[Kavita] [2024-03-25 19:34:13.227 +00:00  91] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/people responded 200 in 3.0430 ms
+[Kavita] [2024-03-25 19:34:13.289 +00:00  61] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/publication-status responded 200 in 0.7962 ms
+[Kavita] [2024-03-25 19:34:13.344 +00:00  61] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 1.3464 ms
+[Kavita] [2024-03-25 19:34:38.010 +00:00  61] [Information] API.Controllers.PluginController Plugin Tachiyomi-Kavita has authenticated with beellz (1)'s API Key
+[Kavita] [2024-03-25 19:34:38.059 +00:00  61] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Plugin/authenticate?apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&pluginName=Tachiyomi-Kavita responded 200 in 52.9282 ms
+[Kavita] [2024-03-25 19:34:38.193 +00:00  269] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Server/server-info responded 200 in 82.7290 ms
+[Kavita] [2024-03-25 19:34:38.284 +00:00  223] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/genres responded 200 in 2.5175 ms
+[Kavita] [2024-03-25 19:34:38.339 +00:00  269] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/tags responded 200 in 2.2214 ms
+[Kavita] [2024-03-25 19:34:38.381 +00:00  61] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/age-ratings responded 200 in 1.3439 ms
+[Kavita] [2024-03-25 19:34:38.475 +00:00  91] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Collection responded 200 in 7.0741 ms
+[Kavita] [2024-03-25 19:34:38.518 +00:00  61] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/languages responded 200 in 2.0218 ms
+[Kavita] [2024-03-25 19:34:38.593 +00:00  269] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-03-25 19:34:38.596 +00:00  269] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Library responded 200 in 4.0771 ms
+[Kavita] [2024-03-25 19:34:38.661 +00:00  91] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/people responded 200 in 3.0574 ms
+[Kavita] [2024-03-25 19:34:38.737 +00:00  91] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/publication-status responded 200 in 0.8897 ms
+[Kavita] [2024-03-25 19:34:38.775 +00:00  269] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 1.4121 ms
+[Kavita] [2024-03-25 20:00:14.682 +00:00  237] [Information] API.Services.Plus.ScrobblingService Starting Scrobble Processing
+[Kavita] [2024-03-25 20:00:14.861 +00:00  237] [Information] API.Services.Plus.ScrobblingService Found 0 Scrobble Events
+[Kavita] [2024-03-25 20:00:14.862 +00:00  237] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-03-25 20:00:14.864 +00:00  237] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-03-25 20:00:14.866 +00:00  237] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-03-25 20:00:14.867 +00:00  237] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-03-25 20:00:14.869 +00:00  237] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-03-25 20:00:14.870 +00:00  237] [Information] API.Services.Plus.ScrobblingService Scrobbling Events is complete

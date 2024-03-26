@@ -1,0 +1,352 @@
+[Kavita] [2024-02-29 00:00:08.455 +00:00  322] [Information] API.Services.Tasks.CleanupService Starting Cleanup
+[Kavita] [2024-02-29 00:00:08.457 +00:00  267] [Information] API.Services.Plus.ScrobblingService Starting Scrobble Processing
+[Kavita] [2024-02-29 00:00:08.469 +00:00  322] [Information] API.Services.Tasks.CleanupService Cleaning temp directory
+[Kavita] [2024-02-29 00:00:08.470 +00:00  322] [Information] API.Services.Tasks.CleanupService Performing cleanup of Cache & Temp directories
+[Kavita] [2024-02-29 00:00:08.473 +00:00  322] [Information] API.Services.Tasks.CleanupService Cache and temp directory purged
+[Kavita] [2024-02-29 00:00:08.474 +00:00  322] [Information] API.Services.Tasks.CleanupService Cleaning old database backups
+[Kavita] [2024-02-29 00:00:08.475 +00:00  70] [Information] API.Services.Tasks.CleanupService Performing cleanup of Series that are Completed and have been fully read that are in Want To Read list
+[Kavita] [2024-02-29 00:00:08.477 +00:00  322] [Information] API.Services.Tasks.CleanupService Beginning cleanup of Database backups at "2024-02-29T00:00:08.4774410+00:00"
+[Kavita] [2024-02-29 00:00:08.481 +00:00  322] [Information] API.Services.Tasks.CleanupService Finished cleanup of Database backups at "2024-02-29T00:00:08.4816101+00:00"
+[Kavita] [2024-02-29 00:00:08.483 +00:00  322] [Information] API.Services.Tasks.CleanupService Cleaning deleted cover images
+[Kavita] [2024-02-29 00:00:08.485 +00:00  216] [Information] API.Services.Tasks.ScannerService Starting Scan of All Libraries
+[Kavita] [2024-02-29 00:00:08.527 +00:00  216] [Information] API.Services.Tasks.ScannerService [ScannerService] Beginning file scan on hmanga
+[Kavita] [2024-02-29 00:00:08.574 +00:00  267] [Information] API.Services.Plus.ScrobblingService Found 0 Scrobble Events
+[Kavita] [2024-02-29 00:00:08.576 +00:00  267] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-02-29 00:00:08.578 +00:00  267] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-02-29 00:00:08.584 +00:00  267] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-02-29 00:00:08.586 +00:00  267] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-02-29 00:00:08.599 +00:00  267] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-02-29 00:00:08.599 +00:00  322] [Information] API.Services.Tasks.CleanupService Performing cleanup of logs directory
+[Kavita] [2024-02-29 00:00:08.601 +00:00  322] [Information] API.Services.Tasks.CleanupService Finished cleanup of logs at "2024-02-29T00:00:08.6018091+00:00"
+[Kavita] [2024-02-29 00:00:08.602 +00:00  322] [Information] API.Services.Tasks.CleanupService Cleaning up any progress rows that exceed chapter page count
+[Kavita] [2024-02-29 00:00:08.604 +00:00  322] [Information] API.Services.Tasks.CleanupService Cleaning up any progress rows that exceed chapter page count - complete
+[Kavita] [2024-02-29 00:00:08.604 +00:00  267] [Information] API.Services.Plus.ScrobblingService Scrobbling Events is complete
+[Kavita] [2024-02-29 00:00:08.617 +00:00  322] [Information] API.Services.Tasks.CleanupService Cleanup finished
+[Kavita] [2024-02-29 00:00:08.630 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz
+[Kavita] [2024-02-29 00:00:08.631 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git
+[Kavita] [2024-02-29 00:00:08.632 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/branches
+[Kavita] [2024-02-29 00:00:08.634 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/hooks
+[Kavita] [2024-02-29 00:00:08.636 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/info
+[Kavita] [2024-02-29 00:00:08.638 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/logs
+[Kavita] [2024-02-29 00:00:08.639 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/logs/refs
+[Kavita] [2024-02-29 00:00:08.640 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/logs/refs/heads
+[Kavita] [2024-02-29 00:00:08.642 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/logs/refs/remotes
+[Kavita] [2024-02-29 00:00:08.643 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/logs/refs/remotes/origin
+[Kavita] [2024-02-29 00:00:08.647 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/objects
+[Kavita] [2024-02-29 00:00:08.648 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/objects/info
+[Kavita] [2024-02-29 00:00:08.650 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/objects/pack
+[Kavita] [2024-02-29 00:00:08.653 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/refs
+[Kavita] [2024-02-29 00:00:08.654 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/refs/heads
+[Kavita] [2024-02-29 00:00:08.656 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/refs/remotes
+[Kavita] [2024-02-29 00:00:08.658 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/refs/remotes/origin
+[Kavita] [2024-02-29 00:00:08.660 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/.git/refs/tags
+[Kavita] [2024-02-29 00:00:08.663 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/src
+[Kavita] [2024-02-29 00:00:08.665 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/target
+[Kavita] [2024-02-29 00:00:08.666 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/target/debug
+[Kavita] [2024-02-29 00:00:08.667 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/target/debug/.fingerprint
+[Kavita] [2024-02-29 00:00:08.668 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/target/debug/.fingerprint/easy-zip-to-cbz-8172284138558fad
+[Kavita] [2024-02-29 00:00:08.671 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/target/debug/build
+[Kavita] [2024-02-29 00:00:08.672 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/target/debug/deps
+[Kavita] [2024-02-29 00:00:08.674 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/target/debug/examples
+[Kavita] [2024-02-29 00:00:08.676 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/target/debug/incremental
+[Kavita] [2024-02-29 00:00:08.677 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/target/debug/incremental/easy_zip_to_cbz-30akxogsr6jli
+[Kavita] [2024-02-29 00:00:08.678 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /manga/easy-zip-to-cbz/target/debug/incremental/easy_zip_to_cbz-30akxogsr6jli/s-grxspc46uf-tws71c-2ppk3620squaylxue18pr1ycj
+[Kavita] [2024-02-29 00:00:08.684 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Found 0 files for /manga/easy-zip-to-cbz
+[Kavita] [2024-02-29 00:00:08.685 +00:00  216] [Information] API.Services.Tasks.ScannerService [ScannerService] /manga/easy-zip-to-cbz is empty or is no longer in this location
+[Kavita] [2024-02-29 00:00:08.752 +00:00  70] [Information] API.Services.Tasks.CleanupService Performing cleanup of Series that are Completed and have been fully read that are in Want To Read list, completed
+[Kavita] [2024-02-29 00:00:13.956 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /manga/hen as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:13.957 +00:00  216] [Information] API.Services.Tasks.ScannerService [ScannerService] Finished file scan in 5350 milliseconds. Updating database
+[Kavita] [2024-02-29 00:00:14.005 +00:00  216] [Information] API.Services.Tasks.ScannerService [ScannerService] Finished library scan of 102 series in 5495 milliseconds for hmanga. There were no changes
+[Kavita] [2024-02-29 00:00:14.006 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Removing Series that were not found during the scan
+[Kavita] [2024-02-29 00:00:14.076 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Found 0 series that needs to be removed: []
+[Kavita] [2024-02-29 00:00:14.076 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Removing Series that were not found during the scan - complete
+[Kavita] [2024-02-29 00:00:14.233 +00:00  216] [Information] API.Services.Tasks.ScannerService [ScannerService] Beginning file scan on books
+[Kavita] [2024-02-29 00:00:14.245 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /books/Learn Python In A Week And Master It as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:14.246 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /books/ChatGPT For Dummies 1st Edition as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:14.247 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /books/Complete Book of Outdoor DIY Projects - The How-To Guide for Building 35 Projects in Stone, Brick, Wood as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:14.249 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /books/DARK PSYCHOLOGY AND MANIPULATION + HOW TO INFLUENCE PEOPLE + GASLIGHTING + MASTER YOUR EMOTIONS as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:14.250 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /books/Electronics For Dummies as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:14.252 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /books/How To Fix Absolutely Anything A Homeowners Guide as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:14.253 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /books/How To Grow Marijuana - High-Quality Marijuana from your own Indoor and Outdoor as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:14.254 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /books/How To Grow Your Own Fruit Trees - A Beginner's Guide on Growing Fruit Trees as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:14.255 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /books/Hydroponics - DIY Guide to Building a Complete and Cheap Hydroponics System as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:14.256 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /books/HYDROPONICS and RAISED BED GARDENING - 2 Manuscripts in 1 - The Essential Guide to Learn as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:14.258 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /books/Linux Format UK - January 2024 PDF as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:14.258 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo
+[Kavita] [2024-02-29 00:00:14.259 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/.pad
+[Kavita] [2024-02-29 00:00:14.260 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/[TutsNode.com] - MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo
+[Kavita] [2024-02-29 00:00:14.261 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/[TutsNode.com] - MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/01 Introduction
+[Kavita] [2024-02-29 00:00:14.262 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/[TutsNode.com] - MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/02 Challenges in existing ML projects
+[Kavita] [2024-02-29 00:00:14.263 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/[TutsNode.com] - MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/03 MLOps - A solution
+[Kavita] [2024-02-29 00:00:14.264 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/[TutsNode.com] - MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/04 Maturity levels in MLOps
+[Kavita] [2024-02-29 00:00:14.265 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/[TutsNode.com] - MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/05 MLOps Tools_Platforms Stack
+[Kavita] [2024-02-29 00:00:14.267 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/[TutsNode.com] - MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/06 Demo - Build & Run MLOps pipeline in Azure Cloud
+[Kavita] [2024-02-29 00:00:14.268 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/[TutsNode.com] - MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/07 Azure Machine Learning Studio - Crash course
+[Kavita] [2024-02-29 00:00:14.269 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/[TutsNode.com] - MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/08 Demo - Data scientist's experiment
+[Kavita] [2024-02-29 00:00:14.270 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/[TutsNode.com] - MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/09 Demo - Orchestrated Experiment ML codes
+[Kavita] [2024-02-29 00:00:14.271 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/[TutsNode.com] - MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/10 Demo - CI_CD MLOps Pipeline
+[Kavita] [2024-02-29 00:00:14.272 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/[TutsNode.com] - MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo/11 BONUS
+[Kavita] [2024-02-29 00:00:14.274 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Found 0 files for /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo
+[Kavita] [2024-02-29 00:00:14.274 +00:00  216] [Information] API.Services.Tasks.ScannerService [ScannerService] /books/MLOps Fundamentals CICDCT Pipelines of ML with Azure Demo is empty or is no longer in this location
+[Kavita] [2024-02-29 00:00:14.277 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /books/Python Programming And Maching Learning Understanding How To Code Within 24 Hours 2 In 1 as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:14.278 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /books/Save the World with Code - 20 Fun Projects for All Ages Using Raspberry Pi, micro as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:14.279 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/[ DevCourseWeb.com ] Udemy - MLOps Simplified
+[Kavita] [2024-02-29 00:00:14.279 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/[ DevCourseWeb.com ] Udemy - MLOps Simplified/~Get Your Files Here !
+[Kavita] [2024-02-29 00:00:14.280 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/[ DevCourseWeb.com ] Udemy - MLOps Simplified/~Get Your Files Here !/1. Welcome
+[Kavita] [2024-02-29 00:00:14.281 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/[ DevCourseWeb.com ] Udemy - MLOps Simplified/~Get Your Files Here !/2. Introduction to MLOps
+[Kavita] [2024-02-29 00:00:14.282 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/[ DevCourseWeb.com ] Udemy - MLOps Simplified/~Get Your Files Here !/3. Model Deployment
+[Kavita] [2024-02-29 00:00:14.283 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/[ DevCourseWeb.com ] Udemy - MLOps Simplified/~Get Your Files Here !/4. Model Monitoring and Management
+[Kavita] [2024-02-29 00:00:14.285 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/[ DevCourseWeb.com ] Udemy - MLOps Simplified/~Get Your Files Here !/5. DevOps and MLOps Integration
+[Kavita] [2024-02-29 00:00:14.286 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/[ DevCourseWeb.com ] Udemy - MLOps Simplified/~Get Your Files Here !/6. MLOps Best Practices
+[Kavita] [2024-02-29 00:00:14.287 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /books/[ DevCourseWeb.com ] Udemy - MLOps Simplified/~Get Your Files Here !/7. Capstone Project
+[Kavita] [2024-02-29 00:00:14.288 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Found 0 files for /books/[ DevCourseWeb.com ] Udemy - MLOps Simplified
+[Kavita] [2024-02-29 00:00:14.289 +00:00  216] [Information] API.Services.Tasks.ScannerService [ScannerService] /books/[ DevCourseWeb.com ] Udemy - MLOps Simplified is empty or is no longer in this location
+[Kavita] [2024-02-29 00:00:16.371 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /books/[ FreeCourseWeb.com ] Coursera - Machine Learning Engineering for Production (MLOps) Specialization as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:16.406 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /books/[ FreeCourseWeb.com ] Udemy - Testing and Monitoring Machine Learning Model Deployments as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:16.407 +00:00  216] [Information] API.Services.Tasks.ScannerService [ScannerService] Finished file scan in 2165 milliseconds. Updating database
+[Kavita] [2024-02-29 00:00:16.436 +00:00  216] [Information] API.Services.Tasks.ScannerService [ScannerService] Finished library scan of 28 series in 2206 milliseconds for books. There were no changes
+[Kavita] [2024-02-29 00:00:16.436 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Removing Series that were not found during the scan
+[Kavita] [2024-02-29 00:00:16.455 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Found 0 series that needs to be removed: []
+[Kavita] [2024-02-29 00:00:16.455 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Removing Series that were not found during the scan - complete
+[Kavita] [2024-02-29 00:00:16.611 +00:00  216] [Information] API.Services.Tasks.ScannerService [ScannerService] Beginning file scan on books old
+[Kavita] [2024-02-29 00:00:16.715 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/101 Essential Tips -  Baking,Growing Vegetables,Yoga,Home Brewing,Dog Care,Cat Care,Effetive Communication and Negotiation Boos Collection - Mantesh as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:16.733 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/18 books by Robert kiyosaki as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:16.744 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/31 Steps Learn a New Language + Learn Spanish,French Verbs &  Vocabulary  + Common Travel Phrases With Phonetic Transcription - Mantesh as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:16.745 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/How Electronic Things Work. . ...And What to Do When They Don't + How to Diagnose and Fix Everything Electronic -Mantesh as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:16.768 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/GATE (ECE) Previous years Question papers as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:16.780 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/self help books as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:16.782 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/The 48 Laws of Power by Robert Greene as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:16.784 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/The Longest August - Dilip Hiro as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:16.801 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/android book as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:16.804 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/balaguruswamy c++ book as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:16.806 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/Building an Educated Vocabulary (gnv64) as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:16.807 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/Business Plans Handbook (2012) + How to Write a Business Plan -Mantesh as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:16.807 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /bookold/CFM
+[Kavita] [2024-02-29 00:00:16.808 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /bookold/CFM/unit 1
+[Kavita] [2024-02-29 00:00:16.809 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /bookold/CFM/unit 2
+[Kavita] [2024-02-29 00:00:16.810 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /bookold/CFM/unit 3
+[Kavita] [2024-02-29 00:00:16.811 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /bookold/CFM/unit 4
+[Kavita] [2024-02-29 00:00:16.813 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Found 0 files for /bookold/CFM
+[Kavita] [2024-02-29 00:00:16.813 +00:00  216] [Information] API.Services.Tasks.ScannerService [ScannerService] /bookold/CFM is empty or is no longer in this location
+[Kavita] [2024-02-29 00:00:16.816 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/Dan Brown as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:20.579 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/eBooks as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:20.649 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/ebooks sd as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:20.651 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/Ebook_-_Self_Help_-_The_world_Of_Subconscious_Mind as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:20.652 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/Electronic Projects for Musicians (1992) [FrankFoo] as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:20.653 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/Show Me How - 500 Things You Should Know - Instructions for Life from the Everyday to the Exotic -Mantesh as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:20.658 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/SN as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:20.661 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/Laptop Repair Complete Guide -Including Motherboard Component Level Repair! (Pdf,Epub,Mobi) -Mantesh as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:20.663 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/Life Skills - How to Do Almost Anything (Pdf,Epub,Mobi) -Mantesh as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:20.665 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/Math in Minutes - 200 Key Concepts Explained In An Instant -Mantesh as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:20.688 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/Mega Collection To Learn French as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:42.422 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/New eBooks Pack (May 2015) (epub) (69books) as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:42.424 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/Non-Programmer's_Tutorial_for_Python_2.6 { UPPOG2 } torrents as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:45.139 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/ROBOTICS as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:45.152 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/The Complete Book of Drawing Techniques as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:45.154 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/The Wolf of Wall Street as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:45.155 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /bookold/thisareallthenotesandmcqssofar___
+[Kavita] [2024-02-29 00:00:45.156 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Found 0 files for /bookold/thisareallthenotesandmcqssofar___
+[Kavita] [2024-02-29 00:00:45.156 +00:00  216] [Information] API.Services.Tasks.ScannerService [ScannerService] /bookold/thisareallthenotesandmcqssofar___ is empty or is no longer in this location
+[Kavita] [2024-02-29 00:00:45.680 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Skipped File Scan for /bookold/VIPRYN's Startup Books, v.1.2 as it hasn't changed since last scan
+[Kavita] [2024-02-29 00:00:45.681 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /bookold/What the Most Successful People Do Before Breakfast [64] By Laura Vanderkam ABEE
+[Kavita] [2024-02-29 00:00:45.682 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Found 0 files for /bookold/What the Most Successful People Do Before Breakfast [64] By Laura Vanderkam ABEE
+[Kavita] [2024-02-29 00:00:45.682 +00:00  216] [Information] API.Services.Tasks.ScannerService [ScannerService] /bookold/What the Most Successful People Do Before Breakfast [64] By Laura Vanderkam ABEE is empty or is no longer in this location
+[Kavita] [2024-02-29 00:00:45.682 +00:00  216] [Debug] API.Services.DirectoryService [ScanFiles] called on /bookold/Word Master
+[Kavita] [2024-02-29 00:00:45.684 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Found 0 files for /bookold/Word Master
+[Kavita] [2024-02-29 00:00:45.684 +00:00  216] [Information] API.Services.Tasks.ScannerService [ScannerService] /bookold/Word Master is empty or is no longer in this location
+[Kavita] [2024-02-29 00:00:45.685 +00:00  216] [Information] API.Services.Tasks.ScannerService [ScannerService] Finished file scan in 29064 milliseconds. Updating database
+[Kavita] [2024-02-29 00:00:45.719 +00:00  216] [Information] API.Services.Tasks.ScannerService [ScannerService] Finished library scan of 601 series in 29110 milliseconds for books old. There were no changes
+[Kavita] [2024-02-29 00:00:45.719 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Removing Series that were not found during the scan
+[Kavita] [2024-02-29 00:00:46.373 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Found 0 series that needs to be removed: []
+[Kavita] [2024-02-29 00:00:46.373 +00:00  216] [Debug] API.Services.Tasks.ScannerService [ScannerService] Removing Series that were not found during the scan - complete
+[Kavita] [2024-02-29 00:00:46.528 +00:00  216] [Information] API.Services.Tasks.ScannerService Scan of All Libraries Finished
+[Kavita] [2024-02-29 02:00:08.669 +00:00  238] [Information] API.Services.Tasks.BackupService Beginning backup of Database at "2024-02-29T02:00:08.6697299+00:00"
+[Kavita] [2024-02-29 02:00:08.682 +00:00  238] [Debug] API.Services.Tasks.BackupService Backing up to /kavita/config/backups
+[Kavita] [2024-02-29 02:00:08.684 +00:00  238] [Error] API.Services.DirectoryService Unable to copy /kavita/config/Hangfire.db to /kavita/config/temp/02_29_2024_02_00_08 as it doesn't exist
+[Kavita] [2024-02-29 02:00:08.684 +00:00  238] [Error] API.Services.DirectoryService Unable to copy /kavita/config/Hangfire-log.db to /kavita/config/temp/02_29_2024_02_00_08 as it doesn't exist
+[Kavita] [2024-02-29 02:00:09.024 +00:00  238] [Information] API.Services.Tasks.BackupService Database backup completed
+[Kavita] [2024-02-29 03:55:41.579 +00:00  295] [Information] API.Controllers.PluginController Plugin Tachiyomi-Kavita has authenticated with beellz (1)'s API Key
+[Kavita] [2024-02-29 03:55:41.628 +00:00  295] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Plugin/authenticate?apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&pluginName=Tachiyomi-Kavita responded 200 in 62.5312 ms
+[Kavita] [2024-02-29 03:55:42.079 +00:00  104] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Server/server-info responded 200 in 194.9903 ms
+[Kavita] [2024-02-29 03:55:42.482 +00:00  104] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/genres responded 200 in 4.4018 ms
+[Kavita] [2024-02-29 03:55:42.778 +00:00  104] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/tags responded 200 in 2.3221 ms
+[Kavita] [2024-02-29 03:55:43.035 +00:00  104] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/age-ratings responded 200 in 1.2927 ms
+[Kavita] [2024-02-29 03:55:43.290 +00:00  269] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Collection responded 200 in 6.4607 ms
+[Kavita] [2024-02-29 03:55:43.544 +00:00  104] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/languages responded 200 in 3.6928 ms
+[Kavita] [2024-02-29 03:55:43.820 +00:00  63] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-02-29 03:55:43.824 +00:00  63] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Library responded 200 in 4.2583 ms
+[Kavita] [2024-02-29 03:55:44.086 +00:00  104] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/people responded 200 in 13.3800 ms
+[Kavita] [2024-02-29 03:55:44.359 +00:00  63] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/publication-status responded 200 in 0.9364 ms
+[Kavita] [2024-02-29 03:55:44.609 +00:00  104] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 1.6339 ms
+[Kavita] [2024-02-29 04:00:08.852 +00:00  242] [Information] API.Services.Plus.ScrobblingService Starting Scrobble Processing
+[Kavita] [2024-02-29 04:00:08.884 +00:00  242] [Information] API.Services.Plus.ScrobblingService Found 0 Scrobble Events
+[Kavita] [2024-02-29 04:00:08.885 +00:00  242] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-02-29 04:00:08.887 +00:00  242] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-02-29 04:00:08.889 +00:00  242] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-02-29 04:00:08.890 +00:00  242] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-02-29 04:00:08.892 +00:00  242] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-02-29 04:00:08.892 +00:00  242] [Information] API.Services.Plus.ScrobblingService Scrobbling Events is complete
+[Kavita] [2024-02-29 04:03:18.875 +00:00  107] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/series/all-v2?pageNumber=1&pageSize=20 responded 200 in 54.3489 ms
+[Kavita] [2024-02-29 04:25:43.929 +00:00  212] [Information] API.Controllers.PluginController Plugin Tachiyomi-Kavita has authenticated with beellz (1)'s API Key
+[Kavita] [2024-02-29 04:25:43.968 +00:00  212] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Plugin/authenticate?apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&pluginName=Tachiyomi-Kavita responded 200 in 45.4051 ms
+[Kavita] [2024-02-29 04:25:44.438 +00:00  157] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Server/server-info responded 200 in 129.0187 ms
+[Kavita] [2024-02-29 04:25:44.786 +00:00  266] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/genres responded 200 in 4.4225 ms
+[Kavita] [2024-02-29 04:25:45.131 +00:00  266] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/tags responded 200 in 2.3082 ms
+[Kavita] [2024-02-29 04:25:45.466 +00:00  266] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/age-ratings responded 200 in 1.3775 ms
+[Kavita] [2024-02-29 04:25:45.810 +00:00  157] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Collection responded 200 in 6.3526 ms
+[Kavita] [2024-02-29 04:25:46.149 +00:00  212] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/languages responded 200 in 3.8509 ms
+[Kavita] [2024-02-29 04:25:46.494 +00:00  266] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-02-29 04:25:46.502 +00:00  266] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Library responded 200 in 10.1007 ms
+[Kavita] [2024-02-29 04:25:46.858 +00:00  212] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/people responded 200 in 21.7245 ms
+[Kavita] [2024-02-29 04:25:47.209 +00:00  266] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/publication-status responded 200 in 1.8914 ms
+[Kavita] [2024-02-29 04:25:47.549 +00:00  157] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 2.7706 ms
+[Kavita] [2024-02-29 04:29:08.127 +00:00  129] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/series/all-v2?pageNumber=1&pageSize=20 responded 200 in 56.2519 ms
+[Kavita] [2024-02-29 08:00:09.175 +00:00  208] [Information] API.Services.Plus.ScrobblingService Starting Scrobble Processing
+[Kavita] [2024-02-29 08:00:09.205 +00:00  208] [Information] API.Services.Plus.ScrobblingService Found 0 Scrobble Events
+[Kavita] [2024-02-29 08:00:09.207 +00:00  208] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-02-29 08:00:09.208 +00:00  208] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-02-29 08:00:09.210 +00:00  208] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-02-29 08:00:09.211 +00:00  208] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-02-29 08:00:09.212 +00:00  208] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-02-29 08:00:09.213 +00:00  208] [Information] API.Services.Plus.ScrobblingService Scrobbling Events is complete
+[Kavita] [2024-02-29 08:28:52.401 +00:00  206] [Information] API.Controllers.PluginController Plugin Tachiyomi-Kavita has authenticated with beellz (1)'s API Key
+[Kavita] [2024-02-29 08:28:52.450 +00:00  206] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Plugin/authenticate?apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&pluginName=Tachiyomi-Kavita responded 200 in 54.5332 ms
+[Kavita] [2024-02-29 08:28:52.656 +00:00  164] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Server/server-info responded 200 in 129.5785 ms
+[Kavita] [2024-02-29 08:28:52.883 +00:00  206] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/genres responded 200 in 4.4536 ms
+[Kavita] [2024-02-29 08:28:53.028 +00:00  164] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/tags responded 200 in 2.2348 ms
+[Kavita] [2024-02-29 08:28:53.117 +00:00  164] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/age-ratings responded 200 in 1.2554 ms
+[Kavita] [2024-02-29 08:28:53.192 +00:00  206] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Collection responded 200 in 6.7684 ms
+[Kavita] [2024-02-29 08:28:53.278 +00:00  206] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/languages responded 200 in 3.7400 ms
+[Kavita] [2024-02-29 08:28:53.347 +00:00  206] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-02-29 08:28:53.350 +00:00  206] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Library responded 200 in 4.3803 ms
+[Kavita] [2024-02-29 08:28:53.425 +00:00  164] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/people responded 200 in 8.4465 ms
+[Kavita] [2024-02-29 08:28:53.505 +00:00  164] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/publication-status responded 200 in 0.9213 ms
+[Kavita] [2024-02-29 08:28:53.578 +00:00  164] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 1.4060 ms
+[Kavita] [2024-02-29 09:10:18.769 +00:00  251] [Information] API.Controllers.PluginController Plugin Tachiyomi-Kavita has authenticated with beellz (1)'s API Key
+[Kavita] [2024-02-29 09:10:18.828 +00:00  251] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Plugin/authenticate?apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&pluginName=Tachiyomi-Kavita responded 200 in 70.0935 ms
+[Kavita] [2024-02-29 09:10:19.749 +00:00  317] [Information] API.Controllers.PluginController Plugin Tachiyomi-Kavita has authenticated with beellz (1)'s API Key
+[Kavita] [2024-02-29 09:10:19.803 +00:00  317] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Plugin/authenticate?apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&pluginName=Tachiyomi-Kavita responded 200 in 58.2762 ms
+[Kavita] [2024-02-29 09:10:20.407 +00:00  317] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Server/server-info responded 200 in 207.7475 ms
+[Kavita] [2024-02-29 09:10:20.458 +00:00  251] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Server/server-info responded 200 in 163.1244 ms
+[Kavita] [2024-02-29 09:10:20.854 +00:00  251] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/genres responded 200 in 4.3263 ms
+[Kavita] [2024-02-29 09:10:21.014 +00:00  182] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/genres responded 200 in 4.1847 ms
+[Kavita] [2024-02-29 09:10:21.337 +00:00  317] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/tags responded 200 in 2.2556 ms
+[Kavita] [2024-02-29 09:10:21.514 +00:00  182] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/tags responded 200 in 2.2155 ms
+[Kavita] [2024-02-29 09:10:21.733 +00:00  182] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/age-ratings responded 200 in 1.2554 ms
+[Kavita] [2024-02-29 09:10:21.932 +00:00  317] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/age-ratings responded 200 in 1.0041 ms
+[Kavita] [2024-02-29 09:10:22.124 +00:00  317] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Collection responded 200 in 6.2955 ms
+[Kavita] [2024-02-29 09:10:22.881 +00:00  182] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/languages responded 200 in 3.7444 ms
+[Kavita] [2024-02-29 09:10:23.111 +00:00  251] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Collection responded 200 in 6.5076 ms
+[Kavita] [2024-02-29 09:10:23.676 +00:00  251] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/languages responded 200 in 2.6711 ms
+[Kavita] [2024-02-29 09:10:23.865 +00:00  251] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-02-29 09:10:23.868 +00:00  251] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Library responded 200 in 4.1053 ms
+[Kavita] [2024-02-29 09:10:24.046 +00:00  251] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-02-29 09:10:24.049 +00:00  251] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Library responded 200 in 3.8652 ms
+[Kavita] [2024-02-29 09:10:24.292 +00:00  251] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/people responded 200 in 8.3795 ms
+[Kavita] [2024-02-29 09:10:24.527 +00:00  251] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/people responded 200 in 13.0675 ms
+[Kavita] [2024-02-29 09:10:24.926 +00:00  221] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/publication-status responded 200 in 0.9522 ms
+[Kavita] [2024-02-29 09:10:25.114 +00:00  317] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/publication-status responded 200 in 0.8909 ms
+[Kavita] [2024-02-29 09:10:25.326 +00:00  251] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 1.5580 ms
+[Kavita] [2024-02-29 09:10:25.558 +00:00  251] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 2.6678 ms
+[Kavita] [2024-02-29 09:13:10.376 +00:00  258] [Information] API.Controllers.PluginController Plugin Tachiyomi-Kavita has authenticated with beellz (1)'s API Key
+[Kavita] [2024-02-29 09:13:10.431 +00:00  258] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Plugin/authenticate?apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&pluginName=Tachiyomi-Kavita responded 200 in 59.3456 ms
+[Kavita] [2024-02-29 09:13:11.223 +00:00  89] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Server/server-info responded 200 in 176.8412 ms
+[Kavita] [2024-02-29 09:13:12.138 +00:00  254] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/genres responded 200 in 4.3013 ms
+[Kavita] [2024-02-29 09:13:12.747 +00:00  89] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/tags responded 200 in 2.7103 ms
+[Kavita] [2024-02-29 09:13:13.389 +00:00  89] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/age-ratings responded 200 in 1.2584 ms
+[Kavita] [2024-02-29 09:13:13.983 +00:00  89] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Collection responded 200 in 6.3890 ms
+[Kavita] [2024-02-29 09:13:14.581 +00:00  254] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/languages responded 200 in 2.6562 ms
+[Kavita] [2024-02-29 09:13:15.170 +00:00  254] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-02-29 09:13:15.173 +00:00  254] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Library responded 200 in 4.0929 ms
+[Kavita] [2024-02-29 09:13:15.793 +00:00  254] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/people responded 200 in 8.6336 ms
+[Kavita] [2024-02-29 09:13:16.460 +00:00  254] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/publication-status responded 200 in 1.7092 ms
+[Kavita] [2024-02-29 09:13:17.129 +00:00  89] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 2.5530 ms
+[Kavita] [2024-02-29 09:52:52.818 +00:00  58] [Information] API.Controllers.PluginController Plugin Tachiyomi-Kavita has authenticated with beellz (1)'s API Key
+[Kavita] [2024-02-29 09:52:52.855 +00:00  58] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Plugin/authenticate?apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&pluginName=Tachiyomi-Kavita responded 200 in 42.9831 ms
+[Kavita] [2024-02-29 09:52:53.507 +00:00  83] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Server/server-info responded 200 in 192.6498 ms
+[Kavita] [2024-02-29 09:52:54.161 +00:00  72] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/genres responded 200 in 4.4047 ms
+[Kavita] [2024-02-29 09:52:54.610 +00:00  72] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/tags responded 200 in 2.2995 ms
+[Kavita] [2024-02-29 09:52:55.035 +00:00  72] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/age-ratings responded 200 in 1.2549 ms
+[Kavita] [2024-02-29 09:52:55.754 +00:00  58] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Collection responded 200 in 6.8337 ms
+[Kavita] [2024-02-29 09:52:56.229 +00:00  98] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/languages responded 200 in 3.9699 ms
+[Kavita] [2024-02-29 09:52:56.996 +00:00  98] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-02-29 09:52:56.999 +00:00  98] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Library responded 200 in 4.1790 ms
+[Kavita] [2024-02-29 09:52:57.736 +00:00  58] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/people responded 200 in 8.6241 ms
+[Kavita] [2024-02-29 09:52:58.198 +00:00  98] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/publication-status responded 200 in 1.0533 ms
+[Kavita] [2024-02-29 09:52:58.657 +00:00  58] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 2.5333 ms
+[Kavita] [2024-02-29 12:00:09.505 +00:00  211] [Information] API.Services.Plus.ScrobblingService Starting Scrobble Processing
+[Kavita] [2024-02-29 12:00:09.563 +00:00  211] [Information] API.Services.Plus.ScrobblingService Found 0 Scrobble Events
+[Kavita] [2024-02-29 12:00:09.565 +00:00  211] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-02-29 12:00:09.567 +00:00  211] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-02-29 12:00:09.569 +00:00  211] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-02-29 12:00:09.572 +00:00  211] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-02-29 12:00:09.574 +00:00  211] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-02-29 12:00:09.575 +00:00  211] [Information] API.Services.Plus.ScrobblingService Scrobbling Events is complete
+[Kavita] [2024-02-29 13:18:33.167 +00:00  251] [Information] API.Controllers.PluginController Plugin Tachiyomi-Kavita has authenticated with beellz (1)'s API Key
+[Kavita] [2024-02-29 13:18:33.205 +00:00  251] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Plugin/authenticate?apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&pluginName=Tachiyomi-Kavita responded 200 in 43.3740 ms
+[Kavita] [2024-02-29 13:18:33.598 +00:00  166] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Server/server-info responded 200 in 129.4824 ms
+[Kavita] [2024-02-29 13:18:33.916 +00:00  251] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/genres responded 200 in 4.5098 ms
+[Kavita] [2024-02-29 13:18:34.116 +00:00  166] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/tags responded 200 in 2.2253 ms
+[Kavita] [2024-02-29 13:18:34.313 +00:00  166] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/age-ratings responded 200 in 1.2500 ms
+[Kavita] [2024-02-29 13:18:34.516 +00:00  251] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Collection responded 200 in 6.2890 ms
+[Kavita] [2024-02-29 13:18:34.714 +00:00  166] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/languages responded 200 in 3.6951 ms
+[Kavita] [2024-02-29 13:18:34.907 +00:00  166] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-02-29 13:18:34.914 +00:00  166] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Library responded 200 in 8.8890 ms
+[Kavita] [2024-02-29 13:18:35.125 +00:00  137] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/people responded 200 in 8.6831 ms
+[Kavita] [2024-02-29 13:18:35.339 +00:00  166] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/publication-status responded 200 in 0.9279 ms
+[Kavita] [2024-02-29 13:18:35.544 +00:00  251] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 1.4316 ms
+[Kavita] [2024-02-29 15:26:11.213 +00:00  179] [Information] API.Controllers.PluginController Plugin Tachiyomi-Kavita has authenticated with beellz (1)'s API Key
+[Kavita] [2024-02-29 15:26:11.252 +00:00  179] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Plugin/authenticate?apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&pluginName=Tachiyomi-Kavita responded 200 in 44.7151 ms
+[Kavita] [2024-02-29 15:26:11.593 +00:00  179] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Server/server-info responded 200 in 129.4202 ms
+[Kavita] [2024-02-29 15:26:11.962 +00:00  270] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/genres responded 200 in 4.6205 ms
+[Kavita] [2024-02-29 15:26:12.192 +00:00  259] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/tags responded 200 in 2.3162 ms
+[Kavita] [2024-02-29 15:26:12.403 +00:00  270] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/age-ratings responded 200 in 1.2543 ms
+[Kavita] [2024-02-29 15:26:12.623 +00:00  179] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Collection responded 200 in 6.3473 ms
+[Kavita] [2024-02-29 15:26:12.833 +00:00  238] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/languages responded 200 in 3.7842 ms
+[Kavita] [2024-02-29 15:26:13.041 +00:00  179] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-02-29 15:26:13.045 +00:00  179] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Library responded 200 in 4.5777 ms
+[Kavita] [2024-02-29 15:26:13.269 +00:00  266] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/people responded 200 in 8.3138 ms
+[Kavita] [2024-02-29 15:26:13.504 +00:00  238] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/publication-status responded 200 in 1.8930 ms
+[Kavita] [2024-02-29 15:26:13.728 +00:00  266] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 2.9115 ms
+[Kavita] [2024-02-29 15:31:24.334 +00:00  137] [Information] API.Controllers.PluginController Plugin Tachiyomi-Kavita has authenticated with beellz (1)'s API Key
+[Kavita] [2024-02-29 15:31:24.396 +00:00  137] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Plugin/authenticate?apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&pluginName=Tachiyomi-Kavita responded 200 in 75.1593 ms
+[Kavita] [2024-02-29 15:31:24.882 +00:00  269] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Server/server-info responded 200 in 208.8898 ms
+[Kavita] [2024-02-29 15:31:25.177 +00:00  137] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/genres responded 200 in 4.5641 ms
+[Kavita] [2024-02-29 15:31:25.394 +00:00  117] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/tags responded 200 in 2.3331 ms
+[Kavita] [2024-02-29 15:31:25.592 +00:00  117] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/age-ratings responded 200 in 1.2507 ms
+[Kavita] [2024-02-29 15:31:25.795 +00:00  139] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Collection responded 200 in 6.9984 ms
+[Kavita] [2024-02-29 15:31:25.949 +00:00  137] [Information] API.Controllers.PluginController Plugin Tachiyomi-Kavita has authenticated with beellz (1)'s API Key
+[Kavita] [2024-02-29 15:31:25.980 +00:00  137] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Plugin/authenticate?apiKey=03ed5936-538d-42dc-b428-c9a590ed2527&pluginName=Tachiyomi-Kavita responded 200 in 32.9725 ms
+[Kavita] [2024-02-29 15:31:26.200 +00:00  269] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/languages responded 200 in 6.2390 ms
+[Kavita] [2024-02-29 15:31:26.301 +00:00  117] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Server/server-info responded 200 in 132.1195 ms
+[Kavita] [2024-02-29 15:31:26.403 +00:00  139] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-02-29 15:31:26.408 +00:00  139] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Library responded 200 in 7.2181 ms
+[Kavita] [2024-02-29 15:31:26.498 +00:00  117] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/genres responded 200 in 4.1810 ms
+[Kavita] [2024-02-29 15:31:26.644 +00:00  46] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/people responded 200 in 8.9337 ms
+[Kavita] [2024-02-29 15:31:26.888 +00:00  46] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/publication-status responded 200 in 0.9138 ms
+[Kavita] [2024-02-29 15:31:26.907 +00:00  46] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/tags responded 200 in 2.1845 ms
+[Kavita] [2024-02-29 15:31:27.091 +00:00  117] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 1.4356 ms
+[Kavita] [2024-02-29 15:31:27.156 +00:00  46] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/age-ratings responded 200 in 1.0004 ms
+[Kavita] [2024-02-29 15:31:27.362 +00:00  46] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Collection responded 200 in 6.2578 ms
+[Kavita] [2024-02-29 15:31:27.561 +00:00  117] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/languages responded 200 in 3.7803 ms
+[Kavita] [2024-02-29 15:31:27.768 +00:00  117] [Debug] API.Controllers.LibraryController Caching libraries for library_beellz
+[Kavita] [2024-02-29 15:31:27.772 +00:00  117] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Library responded 200 in 4.6034 ms
+[Kavita] [2024-02-29 15:31:27.981 +00:00  46] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/people responded 200 in 8.7262 ms
+[Kavita] [2024-02-29 15:31:28.190 +00:00  269] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Metadata/publication-status responded 200 in 0.8646 ms
+[Kavita] [2024-02-29 15:31:28.384 +00:00  269] [Information] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/filter responded 200 in 1.3212 ms
+[Kavita] [2024-02-29 16:00:09.831 +00:00  164] [Information] API.Services.Plus.ScrobblingService Starting Scrobble Processing
+[Kavita] [2024-02-29 16:00:10.014 +00:00  164] [Information] API.Services.Plus.ScrobblingService Found 0 Scrobble Events
+[Kavita] [2024-02-29 16:00:10.015 +00:00  164] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-02-29 16:00:10.017 +00:00  164] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-02-29 16:00:10.018 +00:00  164] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-02-29 16:00:10.021 +00:00  164] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-02-29 16:00:10.023 +00:00  164] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-02-29 16:00:10.023 +00:00  164] [Information] API.Services.Plus.ScrobblingService Scrobbling Events is complete
+[Kavita] [2024-02-29 20:00:10.160 +00:00  307] [Information] API.Services.Plus.ScrobblingService Starting Scrobble Processing
+[Kavita] [2024-02-29 20:00:10.227 +00:00  307] [Information] API.Services.Plus.ScrobblingService Found 0 Scrobble Events
+[Kavita] [2024-02-29 20:00:10.228 +00:00  307] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-02-29 20:00:10.230 +00:00  307] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-02-29 20:00:10.232 +00:00  307] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-02-29 20:00:10.234 +00:00  307] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-02-29 20:00:10.235 +00:00  307] [Debug] API.Services.Plus.ScrobblingService Saving Progress
+[Kavita] [2024-02-29 20:00:10.236 +00:00  307] [Information] API.Services.Plus.ScrobblingService Scrobbling Events is complete
